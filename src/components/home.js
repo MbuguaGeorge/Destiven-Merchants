@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import logo from '../images/logo5.png';
 
 class Home extends Component{
     render(){
@@ -6,11 +7,7 @@ class Home extends Component{
             <>
                 <div className='logo'>
                     <nav>
-                        <div className='circle'>
-                            <div className='circle1'>D</div>
-                            <div className='circle2'>M</div>
-                        </div>
-                        <h1>destiven merchants</h1>
+                        <img src={logo} alt='logo' width='70'/>
                     </nav>
                 </div>
 
@@ -55,15 +52,7 @@ class Home extends Component{
 
                 <div className='footer'>
                     <div className='footer__left'>
-                        <div className='logo'>
-                            <nav>
-                                <div className='circle'>
-                                    <div className='circle1'>D</div>
-                                    <div className='circle2'>M</div>
-                                </div>
-                            </nav>
-                            <h4>destiven merchants</h4>
-                        </div>
+                        <img src={logo} alt='logo' width='70'/>
                         <ul>
                             <li>Fb. /</li>
                             <li>Tw. /</li>
@@ -71,21 +60,20 @@ class Home extends Component{
                         </ul>
                     </div>
                     <div className='footer__centre'>
-                        <h1>Address:</h1>
-                        <h2>Kristin Mark Digital LTD.</h2>
+                        <h1>Contact:</h1>
+                        <h2>Destiven Merchant Inc</h2>
                         <ul>
-                            <li>2 Clifton Moor Business Park</li>
-                            <li>James Nicholson</li>
-                            <li>United Kingdom</li>
+                            <li>Avenue 2 Kenyatta Rd (Off-Thika Rd)</li>
+                            <li>+1 (515) 854-8458 | (254) 715-657-003</li>
                         </ul>
                     </div>
                     <div className='footer__right'>
                         <h1>Service Locations:</h1>
                         <ul>
-                            <li>Kenya</li>
-                            <li>Rwanda</li>
-                            <li>Egypt</li>
-                            <li>Nigeria</li>
+                            <li>USA</li>
+                            <li>United Kingdom</li>
+                            <li>Canada</li>
+                            <li>Australia</li>
                         </ul>
                     </div>
                 </div>
