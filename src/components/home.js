@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import logo1 from '../images/logo3.png';
 
 class Home extends Component{
     render(){
@@ -6,7 +7,11 @@ class Home extends Component{
             <>
                 <div className='logo'>
                     <nav>
-                        <h1>Kristinmark<span>digital.</span></h1>
+                        <div className='circle'>
+                            <div className='circle1'>D</div>
+                            <div className='circle2'>M</div>
+                        </div>
+                        <h1>destiven merchants</h1>
                     </nav>
                 </div>
 
@@ -51,7 +56,15 @@ class Home extends Component{
 
                 <div className='footer'>
                     <div className='footer__left'>
-                        <h1>Kristinmark<span>digital.</span></h1>
+                        <div className='logo'>
+                            <nav>
+                                <div className='circle'>
+                                    <div className='circle1'>D</div>
+                                    <div className='circle2'>M</div>
+                                </div>
+                            </nav>
+                            <h4>destiven merchants</h4>
+                        </div>
                         <ul>
                             <li>Fb. /</li>
                             <li>Tw. /</li>
