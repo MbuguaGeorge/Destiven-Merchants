@@ -11,10 +11,12 @@ class Home extends Component{
                     </nav>
                 </div>
 
-                <div className='hero'>
-                    <h5>Helping brands and retailers</h5>
-                    <h2>Start <span>Grow</span></h2>
-                    <h3><span>Scale</span></h3>
+                <div className='hero-div'>
+                    <div className='hero'>
+                        <h5>Helping brands and retailers</h5>
+                        <h2>Start <span>Grow</span></h2>
+                        <h3><span>Scale</span></h3>
+                    </div>
                 </div>
 
                 <div className='about__page'>
@@ -53,11 +55,6 @@ class Home extends Component{
                 <div className='footer'>
                     <div className='footer__left'>
                         <img src={logo} alt='logo' width='70'/>
-                        <ul>
-                            <li>Fb. /</li>
-                            <li>Tw. /</li>
-                            <li>Lk.</li>
-                        </ul>
                     </div>
                     <div className='footer__centre'>
                         <h1>Contact:</h1>
