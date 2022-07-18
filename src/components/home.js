@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from '../images/logo5.png';
+import logo from '../images/logo.png';
 
 class Home extends Component{
     render(){
@@ -7,7 +7,7 @@ class Home extends Component{
             <>
                 <div className='logo'>
                     <nav>
-                        <img src={logo} alt='logo' width='70'/>
+                        <img src={logo} alt='logo'/>
                     </nav>
                 </div>
 
@@ -64,6 +64,7 @@ class Home extends Component{
                         <h2>Destiven Merchant Inc</h2>
                         <ul>
                             <li>Avenue 2 Kenyatta Rd (Off-Thika Rd)</li>
+                            <li>Nairobi</li>
                             <li>+1 (515) 854-8458 | (254) 715-657-003</li>
                         </ul>
                     </div>

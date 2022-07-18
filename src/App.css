@@ -1,15 +1,21 @@
 /* Navigation */
-
+.logo nav{
+  background-color: transparent;
+  position: absolute;
+}
 .logo nav img{
-  margin-top: 20px;
-  margin-left: 20px;
+  width: 100px;
 }
 
 /* hero */
 
 .hero{
-  margin-left: 110px;
-  margin-top: 140px;
+  padding-left: 110px;
+  padding-top: 140px;
+  background: url(./images/hero1.png) center no-repeat;
+  background-size: cover;
+  height: 90vh;
+  
 }
 .hero h5{
   font-family: 'Times New Roman', Times, serif;
