@@ -1,22 +1,29 @@
 import React, {Component} from 'react';
-import logo from '../images/logo.png';
+import logo from '../images/logo3.png';
 
 class Home extends Component{
     render(){
         return (
             <>
                 <div className='logo'>
-                    <nav>
-                        <img src={logo} alt='logo'/>
-                    </nav>
+                    <img src={logo} alt='logo'/>
                 </div>
 
                 <div className='hero-div'>
                     <div className='hero'>
-                        <h5>Helping brands and retailers</h5>
-                        <h2>Start <span>Grow</span></h2>
-                        <h3><span>Scale</span></h3>
+                        <h2>Grow <span>& Scale</span></h2>
                     </div>
+                </div>
+
+                <div className='nav'>
+                    <nav>
+                        <ul>
+                            <li>Home</li>
+                            <li>Blog</li>
+                            <li>About Us</li>
+                            <li>Contact</li>
+                        </ul>
+                    </nav>
                 </div>
 
                 <div className='about__page'>
