@@ -24,7 +24,20 @@ class Contact extends Component{
                     <h2>Contact <span>Us</span></h2>
                 </div>
 
-                <div className='blank'></div>
+                <div className='contact'>
+                    <form>
+                    <h1>How can we help</h1>
+                        <div className='contact-first'>
+                            <input type='text' placeholder='FirstName' required/>
+                            <input type='text' placeholder='LastName' required/>
+                            <input type='email' placeholder='Your Email' required/>
+                        </div>
+                        <div className='message'>
+                            <textarea placeholder='Your Message' required></textarea>
+                        </div>
+                        <input type='submit'/>
+                    </form>
+                </div>
 
                 <div className='footer'>
                     <div className='footer__left'>
