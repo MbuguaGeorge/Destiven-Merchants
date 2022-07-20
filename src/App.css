@@ -37,11 +37,17 @@ body {
   width: 40%;
   min-height: 10vh;
   align-items: center;
+  text-decoration: none;
 }
 .nav ul li{
   list-style: none;
   font-size: 1.1rem;
   font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+.nav ul li:hover{
+  color: crimson;
 }
 
 /* hero */

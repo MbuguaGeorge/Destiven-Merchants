@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import logo from '../images/logo1.jpg';
 import logo1 from '../images/logo3.jpg';
 
@@ -11,10 +12,10 @@ class Contact extends Component{
                         <img src={logo} alt='logo'/>
                     </div>
                     <ul>
-                        <li>Home</li>
-                        <li>Blog</li>
-                        <li>About Us</li>
-                        <li>Contact</li>
+                        <Link style={{textDecoration: 'None'}}  to="/"><li>Home</li></Link>
+                        <Link style={{textDecoration: 'None'}}  to="/blog"><li>Blog</li></Link>
+                        <Link style={{textDecoration: 'None'}}  to="/about"><li>About Us</li></Link>
+                        <Link style={{textDecoration: 'None'}}  to="/contact"><li>Contact</li></Link>
                     </ul>
                 </div>
 
