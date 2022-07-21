@@ -37,7 +37,7 @@ class Home extends Component{
                             <li>Avenue 2 Kenyatta Rd (Off-Thika Rd)</li>
                             <li>Nairobi</li>
                             <li>+1 (515) 854-8458 | (254) 715-657-003</li>
-                            <li>stephen@destivenmerchants.com</li>
+                            <li>info@destivenmerchants.com</li>
                         </ul>
                     </div>
                     <div className='footer__right'>
