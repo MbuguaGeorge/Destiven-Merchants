@@ -9,7 +9,7 @@ class About extends Component{
             <>
                 <div className='nav'>
                     <div className='logo'>
-                        <img src={logo} alt='logo'/>
+                        <Link style={{textDecoration: 'None'}} to='/'><img src={logo} alt='logo'/></Link>
                     </div>
                     <ul>
                         <Link style={{textDecoration: 'None'}}  to="/"><li>Home</li></Link>
@@ -21,7 +21,7 @@ class About extends Component{
 
                 <div className='hero-div'></div>
                 <div className='hero'>
-                    <h2>About <span>Us</span></h2>
+                    <h2>About <span style={{marginLeft: '0'}}>Us</span></h2>
                 </div>
 
                 <div className='blank'></div>

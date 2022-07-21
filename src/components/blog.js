@@ -9,7 +9,7 @@ class Blog extends Component{
             <>
                 <div className='nav'>
                     <div className='logo'>
-                        <img src={logo} alt='logo'/>
+                        <Link style={{textDecoration: 'None'}} to='/'><img src={logo} alt='logo'/></Link>
                     </div>
                     <ul>
                         <Link style={{textDecoration: 'None'}}  to="/"><li>Home</li></Link>
