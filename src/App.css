@@ -79,10 +79,15 @@ body {
   padding-top: 200px;
   padding-bottom: 50px;
 }
+
+.and{
+  width: 100px;
+  border: 3px solid crimson;
+}
 /* Footer */
 
 .footer{
-  background-color: #1d1d1d;
+  background-color: black;
   padding-left: 110px;
   padding-bottom: 0;
   color: white;
@@ -124,7 +129,7 @@ body {
 }
 
 .watermark{
-  background-color: #1d1d1d;
+  background-color: black;
   text-align: center;
   color: #ddd;
   padding-bottom: 30px; 
@@ -151,7 +156,7 @@ body {
 .contact .message textarea{
   width: 100%;
   border: 1px solid #ddd;
-  height: 100px;
+  height: 150px;
   padding: 10px 10px;
   outline: none;
   border-radius: 3px;
@@ -166,6 +171,7 @@ body {
   border: 1px solid #ddd;
   font-size: 1rem;
   margin-right: 5px;
+  width: 300px;
 }
 .contact form input[type='submit']{
   float: right;

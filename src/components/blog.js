@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../images/logo1.jpg';
+import logo from '../images/logo6.jpg';
 import logo1 from '../images/logo3.jpg';
 
 class Blog extends Component{

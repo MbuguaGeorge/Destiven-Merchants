@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../images/logo1.jpg';
+import logo from '../images/logo6.jpg';
 import logo1 from '../images/logo3.jpg';
 
 class Contact extends Component{
@@ -26,10 +26,9 @@ class Contact extends Component{
 
                 <div className='contact'>
                     <form>
-                    <h1>How can we help</h1>
+                        <h1>How can we help</h1>
                         <div className='contact-first'>
-                            <input type='text' placeholder='FirstName' required/>
-                            <input type='text' placeholder='LastName' required/>
+                            <input type='text' placeholder='Name' required/>
                             <input type='email' placeholder='Your Email' required/>
                         </div>
                         <div className='message'>

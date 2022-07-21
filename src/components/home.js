@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../images/logo1.jpg';
+import logo from '../images/logo6.jpg';
 import logo1 from '../images/logo3.jpg';
 
 class Home extends Component{
@@ -21,7 +21,7 @@ class Home extends Component{
 
                 <div className='hero-div'></div>
                 <div className='hero'>
-                    <h2>Grow <span>& Scale</span></h2>
+                    <h2>Grow <div className='and'></div><span>Scale</span></h2>
                 </div>
 
                 <div className='blank'></div>
