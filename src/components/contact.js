@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../images/logo6.jpg';
-import logo1 from '../images/logo3.jpg';
+import logo from '../images/logo4.png';
+import logo1 from '../images/logo4.png';
 
 class Contact extends Component{
     render(){
@@ -40,7 +40,7 @@ class Contact extends Component{
 
                 <div className='footer'>
                     <div className='footer__left'>
-                        <img src={logo1} alt='logo' width='70'/>
+                        <img src={logo1} alt='logo' width='120'/>
                     </div>
                     <div className='footer__centre'>
                         <h1>Contact Us:</h1>
