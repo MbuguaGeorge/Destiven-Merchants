@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../images/logo4.png';
-import logo1 from '../images/logo4.png';
+import logo1 from '../images/logo7.png';
 
 class Blog extends Component{
     render(){
