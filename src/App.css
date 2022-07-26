@@ -47,7 +47,7 @@ body {
   color: black;
 }
 .nav ul li:hover{
-  color: red;
+  color: crimson;
 }
 
 /* hero */
@@ -74,7 +74,7 @@ body {
 }
 .hero span{
   font-size: 5rem;
-  color: red;
+  color: crimson;
   font-weight: 800;
   font-size: 5rem;
   margin-top: 0;
@@ -187,17 +187,17 @@ body {
   float: right;
   margin-top: 10px;
   padding: 7px 30px;
-  background-color: red;
+  background-color: crimson;
   color: white;
   outline: none;
-  border: 1px solid red;
+  border: 1px solid crimson;
   border-radius: 3px;
   cursor: pointer;
   font-family: 'Open Sans' Condensed;
   font-weight: 700;
 }
 .contact form input[type='submit']:hover{
-  color: red;
+  color: crimson;
   background-color: white;
   border: 1px solid #ddd;
 }
@@ -226,7 +226,7 @@ body {
   font-size: 1.6rem;
 }
 .about .about__section span{
-  color: red;
+  color: crimson;
 }
 .about .about__section ul{
   display: flex;

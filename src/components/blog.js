@@ -36,7 +36,7 @@ class Blog extends Component{
                         <ul>
                             <li>Avenue 2 Kenyatta Rd (Off-Thika Rd)</li>
                             <li>Nairobi</li>
-                            <li>+1 (515) 854-8458 | (254) 715-657-003</li>
+                            <li>(254) 715-657-003</li>
                             <li>info@destivenmerchants.com</li>
                         </ul>
                     </div>
