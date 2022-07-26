@@ -20,9 +20,10 @@ class Home extends Component{
                 </div>
 
                 <div className='hero-div'></div>
-                <div className='hero'>
-                    <h2>Grow</h2>
-                    <div className='and'></div>
+                    <div className='hero'>
+                        <h2>Grow</h2>
+                        <div className='and'>
+                    </div>
                     <span>Scale</span>
                 </div>
 
@@ -38,7 +39,7 @@ class Home extends Component{
                         <ul>
                             <li>Avenue 2 Kenyatta Rd (Off-Thika Rd)</li>
                             <li>Nairobi</li>
-                            <li>+1 (515) 854-8458 | (254) 715-657-003</li>
+                            <li>(254) 715-657-003</li>
                             <li>info@destivenmerchants.com</li>
                         </ul>
                     </div>

@@ -21,7 +21,7 @@ body {
 
 .logo img{
   padding-top: 5px;
-  margin-left: 110px;
+  margin-left: 50px;
   width: 120px;
 }
 
@@ -47,15 +47,18 @@ body {
   color: black;
 }
 .nav ul li:hover{
-  color: crimson;
+  color: red;
 }
 
 /* hero */
 
+
 .hero-div{
-  background: linear-gradient(to top, rgba(214, 209, 209, 0.3), rgba(214, 209, 209, 0.3)), url(./images/hero1.png) center no-repeat;
+  content: "";
+  width: 100%;
+  background: linear-gradient(to top, rgba(22, 22, 22, 0.3), rgba(22, 22, 22, 0.3)), url(./images/hero1.png) center no-repeat;
   background-size: cover;
-  height: 50vh; 
+  height: 50vh;
 }
 .hero{
   position: absolute;
@@ -71,7 +74,7 @@ body {
 }
 .hero span{
   font-size: 5rem;
-  color: crimson;
+  color: red;
   font-weight: 800;
   font-size: 5rem;
   margin-top: 0;
@@ -95,7 +98,7 @@ body {
 
 .footer{
   background-color: #1d1d1d;
-  padding-left: 110px;
+  padding-left: 50px;
   padding-bottom: 0;
   color: white;
   padding-top: 50px;
@@ -184,17 +187,87 @@ body {
   float: right;
   margin-top: 10px;
   padding: 7px 30px;
-  background-color: crimson;
+  background-color: red;
   color: white;
   outline: none;
-  border: 1px solid crimson;
+  border: 1px solid red;
   border-radius: 3px;
   cursor: pointer;
   font-family: 'Open Sans' Condensed;
   font-weight: 700;
 }
 .contact form input[type='submit']:hover{
-  color: crimson;
+  color: red;
   background-color: white;
   border: 1px solid #ddd;
+}
+
+/* About Us */
+
+.about{
+  padding-left: 200px;
+  margin-top: 70px;
+  padding-bottom: 50px;
+}
+.about .about__us{
+  width: 70%;
+}
+.about .about__us p{
+  font-family: 'Open Sans' Condensed;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 30px;
+}
+.about  .about__section{
+  padding-top: 30px;
+}
+.about .about__section h1{
+  font-family: 'Open Sans' Condensed;
+  font-size: 1.6rem;
+}
+.about .about__section span{
+  color: red;
+}
+.about .about__section ul{
+  display: flex;
+}
+.about .about__section ul li{
+  list-style: none;
+  padding: 95px;
+  padding-top: 30px;
+}
+.about .about__section ul li img, ol li img{
+  width: 100px;
+}
+.about .about__section ul li h2, ol li h2{
+  font-family: 'Open Sans' Condensed;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.about .about__section ol{
+  text-align: center;
+  padding-right: 200px;
+}
+.about .about__section ol li{
+  list-style: none;
+}
+.about .values{
+  margin-top: 60px;
+  display: flex;
+  padding-right: 30px;
+  width: 80%;
+}
+.about .values .vision, .mission{
+  width: 500px;
+}
+.about .values .mission h3, .vision h3{
+  padding-bottom: 20px;
+  font-family: 'Open Sans' Condensed;
+  font-size: 1.5rem;
+}
+.about .values .mission p, .vision p{
+  padding-bottom: 20px;
+  font-family: 'Open Sans' Condensed;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
