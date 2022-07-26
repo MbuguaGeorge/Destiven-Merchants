@@ -205,9 +205,12 @@ body {
 /* About Us */
 
 .about{
-  padding-left: 200px;
   margin-top: 70px;
   padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .about .about__us{
   width: 70%;
@@ -246,7 +249,6 @@ body {
 }
 .about .about__section ol{
   text-align: center;
-  padding-right: 200px;
 }
 .about .about__section ol li{
   list-style: none;
@@ -254,8 +256,7 @@ body {
 .about .values{
   margin-top: 60px;
   display: flex;
-  padding-right: 30px;
-  width: 80%;
+  margin-left: 50px;
 }
 .about .values .vision, .mission{
   width: 500px;
