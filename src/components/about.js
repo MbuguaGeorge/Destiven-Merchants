@@ -115,8 +115,8 @@ class About extends Component{
                                     <p>Excellent service all around. Great communication!</p>
                                 </div>
                                 <div className='name'>
-                                    <h5>Eva</h5>
-                                    <span>United Kingdom</span>
+                                    <h5>Eve Myren</h5>
+                                    <span>United States</span>
                                 </div>
                             </div>
                             <div className='container'>
