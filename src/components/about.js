@@ -12,7 +12,9 @@ import img8 from '../images/img8.png';
 import img9 from '../images/img9.png';
 import img10 from '../images/img10.png';
 import img11 from '../images/img11.png';
-import test from '../images/test.jpeg';
+import pic1 from '../images/pic1.png';
+import pic2 from '../images/pic2.png';
+import pic3 from '../images/pic3.png';
 
 class About extends Component{
     render(){
@@ -98,28 +100,28 @@ class About extends Component{
                         <div className='cont'>
                             <div className='container'>
                                 <div className='testimony'>
-                                    <img src={test} alt='avatar'/>
-                                    <p>Straight up to the point, well researched information presented in easy to follow, succinct, and clear language.</p>
+                                    <img src={pic2} alt='avatar'/>
+                                    <p>Great work as always. Stephen is a great seller to work with. Very professional. Really goes above what is expected. </p>
                                 </div>
                                 <div className='name'>
-                                    <h5>Steve Ruigu</h5>
+                                    <h5>Catherine</h5>
                                     <span>United Kingdom</span>
                                 </div>
                             </div>
                             <div className='container'>
                                 <div className='testimony'>
-                                    <img src={test} alt='avatar'/>
-                                    <p>Straight up to the point, well researched information presented in easy to follow, succinct, and clear language.</p>
+                                    <img src={pic3} alt='avatar'/>
+                                    <p>Excellent service all around. Great communication!</p>
                                 </div>
                                 <div className='name'>
-                                    <h5>Steve Ruigu</h5>
+                                    <h5>Eva</h5>
                                     <span>United Kingdom</span>
                                 </div>
                             </div>
                             <div className='container'>
                                 <div className='testimony'>
-                                    <img src={test} alt='avatar'/>
-                                    <p>Straight up to the point, well researched information presented in easy to follow, succinct, and clear language.</p>
+                                    <img src={pic1} alt='avatar'/>
+                                    <p>Excellent! </p>
                                 </div>
                                 <div className='name'>
                                     <h5>Steve Ruigu</h5>

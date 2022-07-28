@@ -353,9 +353,10 @@ body {
   width: 350px;
   border: 3px solid #ddd;
   padding: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   background-color: white;
   margin-top: 30px;
+  height: 240px;
 }
 .about .testimonials .testimony{
   display: flex;
@@ -369,6 +370,7 @@ body {
 .about .container p{
   font-family: 'Open Sans' Condensed;
   font-size: 1.1rem;
+  font-style: italic;
   color: #111;
   font-weight: 400;
   line-height: 25px;
