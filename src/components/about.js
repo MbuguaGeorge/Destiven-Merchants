@@ -72,7 +72,8 @@ class About extends Component{
                         <ul>
                             <li>
                                 <img src={img4} alt='img4' />
-                                <h2>Innovation & Creativity</h2>
+                                <h2>Respect for the client's needs,
+                                </h2> <h2>Culture and Identity</h2>
                             </li>
                             <li>
                                 <img src={img6} alt='img6' />
