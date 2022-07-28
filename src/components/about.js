@@ -6,6 +6,12 @@ import img1 from '../images/img1.png';
 import img2 from '../images/img2.png';
 import img3 from '../images/img3.png';
 import img4 from '../images/img4.png';
+import img6 from '../images/img6.png';
+import img7 from '../images/img7.png';
+import img8 from '../images/img8.png';
+import img9 from '../images/img9.png';
+import img10 from '../images/img10.png';
+import img11 from '../images/img11.png';
 
 class About extends Component{
     render(){
@@ -25,15 +31,24 @@ class About extends Component{
 
                 <div className='hero-div'></div>
                 <div className='hero'>
-                    <h2>About <span style={{marginLeft: '0'}}>Us</span></h2>
+                    <h2>Our <span style={{marginLeft: '0'}}>Story</span></h2>
                 </div>
 
                 <div className='about'>
                     <div className='about__us'>
-                        <p>Destiven Merchants is a creative agency that provides innovative management and marketing initiatives to Shopify stores. We are a small group of web developers, Virtual assistants, and SEO consultants looking to help stores to achieve their goals. We are result oriented and always aspire to provide quality services to our customers through our team of professionals. </p>
+                        <p>Destiven Merchants provides services that will help you run your business more efficiently. We're a team of experienced, knowledgeable, dedicated web developers, virtual assistants, and SEO and marketing consultants. We're on a mission to empower Shopify stores with an online presence worldwide to deliver top-notch results. 
+                        By understanding customer needs, we advise businesses on the best way to address them. As a creative agency, our sole purpose is to help Shopify business level their efficiency and performance and deliver exceptional customer experience.
+                        </p>   
+                        <p>There are a few reasons why you should get us to help your business:</p>
+                        <ol>
+                            <li>Your productivity will increase drastically - We'll handle the administrative work, customer support, and data entry, and you'll be able to spend more time working on tasks that are important to your business. </li>
+                            <li>Value for your money - You can expect service consistency and reliability 24/7. We'll walk hand-in-hand, and you'll always know what needs to be done and when. </li>
+                            <li>Experts - you'll have a custom team at your disposal. You won't have to research complicated solutions or troubleshoot issues. We'll take care of everything for you!</li>
+                        </ol>
                     </div>
                     <div className='about__section'>
                         <h1>Why Destiven <span>Merchants</span>?</h1>
+                        <div className='border'></div>
                         <ul>
                             <li>
                                 <img src={img1} alt='img1' />
@@ -48,22 +63,45 @@ class About extends Component{
                                 <h2>Innovation & Creativity</h2>
                             </li>
                         </ul>
-                        <ol>
+                        <ul>
                             <li>
                                 <img src={img4} alt='img4' />
                                 <h2>Innovation & Creativity</h2>
                             </li>
-                        </ol>
+                            <li>
+                                <img src={img6} alt='img6' />
+                                <h2>Integrity</h2>
+                            </li>
+                            <li>
+                                <img src={img7} alt='img7' />
+                                <h2>Accountability</h2>
+                            </li>
+                        </ul>
                     </div>
                     <div className='values'>
-                        <div className='mission'>
-                        <h3>Mission</h3>
-                            <p>To provide the best customer results possible and deliver the WOW! Factor through our services.</p>
-                        </div>
-                        <div className='vision'>
-                        <h3>Vision</h3>
-                            <p>To provide innovative and effective integrated brand marketing optimization solutions to help our clients grow their businesses and realize their goals.	</p>
-                        </div>
+                        <h3>Mission & Vision</h3>
+                        <div className='border'></div>
+                        <p>To provide the best customer results possible and deliver the WOW! Factor through our services.
+                        To provide innovative and effective integrated brand marketing optimization solutions to help our clients grow their businesses and realize their goals.
+                        With this service at your disposal, you can focus on running your business instead of managing it daily. So what are you waiting for? Get in touch with us. 
+                        </p>
+                    </div>
+                    <div className='verify'>
+                        <h3>Verified by:</h3>
+                        <ul>
+                            <li>
+                                <img src={img8} alt='img8' />
+                            </li>
+                            <li>
+                                <img src={img9} alt='img9' />
+                            </li>
+                            <li>
+                                <img src={img10} alt='img10' />
+                            </li>
+                            <li>
+                                <img src={img11} alt='img11' />
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
