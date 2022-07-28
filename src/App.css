@@ -46,6 +46,7 @@ body {
   text-decoration: none;
   color: black;
   padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
 }
 .nav ul li:hover{
   color: crimson;
