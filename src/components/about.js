@@ -12,6 +12,7 @@ import img8 from '../images/img8.png';
 import img9 from '../images/img9.png';
 import img10 from '../images/img10.png';
 import img11 from '../images/img11.png';
+import test from '../images/test.jpeg';
 
 class About extends Component{
     render(){
@@ -23,6 +24,7 @@ class About extends Component{
                     </div>
                     <ul>
                         <Link style={{textDecoration: 'None'}}  to="/"><li>Home</li></Link>
+                        
                         <Link style={{textDecoration: 'None'}}  to="/blog"><li>Blog</li></Link>
                         <Link style={{textDecoration: 'None'}}  to="/about"><li>About Us</li></Link>
                         <Link style={{textDecoration: 'None'}}  to="/contact"><li>Contact</li></Link>
@@ -31,12 +33,14 @@ class About extends Component{
 
                 <div className='hero-div'></div>
                 <div className='hero'>
-                    <h2>Our <span style={{marginLeft: '0'}}>Story</span></h2>
+                    <h2>About <span style={{marginLeft: '0'}}>Us</span></h2>
                 </div>
 
                 <div className='about'>
                     <div className='about__us'>
-                        <p>Destiven Merchants provides services that will help you run your business more efficiently. We're a team of experienced, knowledgeable, dedicated web developers, virtual assistants, and SEO and marketing consultants. We're on a mission to empower Shopify stores with an online presence worldwide to deliver top-notch results. 
+                    <h5>Our <span>Story</span></h5>
+                        <p>Destiven Merchants provides services that will help you run your business more efficiently. We're a team of experienced, knowledgeable, dedicated web developers, virtual assistants, and SEO and marketing consultants. We're on a mission to empower Shopify stores with an online presence worldwide to deliver top-notch results.</p>
+                        <p> 
                         By understanding customer needs, we advise businesses on the best way to address them. As a creative agency, our sole purpose is to help Shopify business level their efficiency and performance and deliver exceptional customer experience.
                         </p>   
                         <p>There are a few reasons why you should get us to help your business:</p>
@@ -81,10 +85,48 @@ class About extends Component{
                     <div className='values'>
                         <h3>Mission & Vision</h3>
                         <div className='border'></div>
-                        <p>To provide the best customer results possible and deliver the WOW! Factor through our services.
-                        To provide innovative and effective integrated brand marketing optimization solutions to help our clients grow their businesses and realize their goals.
+                        <p>To provide the best customer results possible and deliver the WOW! Factor through our services.</p>
+                        <p>
+                        To provide innovative and effective integrated brand marketing optimization solutions to help our clients grow their businesses and realize their goals.</p>
+                        <p style={{marginTop: '50px'}} >
                         With this service at your disposal, you can focus on running your business instead of managing it daily. So what are you waiting for? Get in touch with us. 
                         </p>
+                    </div>
+                    <div className='testimonials'>
+                        <h4>Testimonials</h4>
+                        <div className='border'></div>
+                        <div className='cont'>
+                            <div className='container'>
+                                <div className='testimony'>
+                                    <img src={test} alt='avatar'/>
+                                    <p>Straight up to the point, well researched information presented in easy to follow, succinct, and clear language.</p>
+                                </div>
+                                <div className='name'>
+                                    <h5>Steve Ruigu</h5>
+                                    <span>United Kingdom</span>
+                                </div>
+                            </div>
+                            <div className='container'>
+                                <div className='testimony'>
+                                    <img src={test} alt='avatar'/>
+                                    <p>Straight up to the point, well researched information presented in easy to follow, succinct, and clear language.</p>
+                                </div>
+                                <div className='name'>
+                                    <h5>Steve Ruigu</h5>
+                                    <span>United Kingdom</span>
+                                </div>
+                            </div>
+                            <div className='container'>
+                                <div className='testimony'>
+                                    <img src={test} alt='avatar'/>
+                                    <p>Straight up to the point, well researched information presented in easy to follow, succinct, and clear language.</p>
+                                </div>
+                                <div className='name'>
+                                    <h5>Steve Ruigu</h5>
+                                    <span>United Kingdom</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className='verify'>
                         <h3>Verified by:</h3>
