@@ -243,7 +243,8 @@ body {
   font-family: 'Open Sans' Condensed;
   font-size: 1.1rem;
   font-weight: 500;
-  line-height: 30px;
+  line-height: 40px;
+  padding-bottom: 10px;
   color: #111;
 }
 .about .about__section{
@@ -272,9 +273,11 @@ body {
   list-style: none;
   padding: 120px;
   padding-top: 30px;
+  text-align: center;
 }
 .about .about__section ul li img, ol li img{
   width: 100px;
+  margin-bottom: 10px;
 }
 .about .about__section ul li h2, ol li h2{
   font-family: 'Open Sans' Condensed;

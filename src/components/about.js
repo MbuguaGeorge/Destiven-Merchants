@@ -91,7 +91,7 @@ class About extends Component{
                         <p>
                         To provide innovative and effective integrated brand marketing optimization solutions to help our clients grow their businesses and realize their goals.</p>
                         <p style={{marginTop: '50px'}} >
-                        With this service at your disposal, you can focus on running your business instead of managing it daily. So what are you waiting for? Get in touch with us. 
+                        With us at your disposal, you will focus on running your business instead of managing it daily. So what are you waiting for? Get in touch with us.  
                         </p>
                     </div>
                     <div className='testimonials'>
@@ -124,7 +124,7 @@ class About extends Component{
                                     <p>Excellent! </p>
                                 </div>
                                 <div className='name'>
-                                    <h5>Steve Ruigu</h5>
+                                    <h5>Deb</h5>
                                     <span>United Kingdom</span>
                                 </div>
                             </div>
