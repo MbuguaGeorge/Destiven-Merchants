@@ -20,7 +20,7 @@ body {
 /* Navigation */
 
 .logo img{
-  padding-top: 5px;
+  padding-top: 20px;
   margin-left: 30px;
   width: 120px;
 }
@@ -33,11 +33,13 @@ body {
 }
 .nav ul{
   display: flex;
+  padding-top: 30px;
   justify-content: space-around;
-  width: 40%;
+  width: 30%;
   min-height: 10vh;
   align-items: center;
   text-decoration: none;
+  margin-right: 50px;
 }
 .nav ul li{
   list-style: none;
@@ -48,12 +50,21 @@ body {
   padding-bottom: 10px;
   border-bottom: 2px solid transparent;
 }
+.nav ul li::after{
+  content: '';
+  display: block;
+  width: 0;
+  border-bottom: 2px solid crimson;
+  padding-bottom: 10px;
+  transition: width .3s;
+}
+.nav ul li:hover::after{
+  width: 100%;
+}
 .nav ul li:hover{
   color: crimson;
-  border-bottom: 2px solid crimson;
-  transition: 0.15s ;
+  transition: .3s;
 }
-
 
 /* hero */
 
@@ -152,17 +163,16 @@ body {
 /* Contact */
 
 .contact{
-  padding-top: 70px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   background-color: #F9F9F9;
+  padding-left: 150px;
 }
 .contact form h1{
   padding-bottom: 30px;
-  font-weight: 400;
+  font-weight: 500;
+  color: #1d1d1d;
 }
 .contact .message{
   padding-top: 10px;
@@ -170,17 +180,15 @@ body {
 .contact .message textarea{
   width: 100%;
   border: 1px solid #ddd;
-  height: 150px;
+  height: 200px;
   padding: 10px 10px;
   outline: none;
-  border-radius: 3px;
   font-family: 'Open Sans' Condensed;
   font-size: 1.1rem;
 }
 .contact form .contact-first input[type='text'],.contact form .contact-first input[type='email']{
-  padding: 8px 10px;
+  padding: 10px 10px;
   outline: none;
-  border-radius: 3px;
   font-family: 'Open Sans' Condensed;
   border: 1px solid #ddd;
   font-size: 1rem;
@@ -190,22 +198,48 @@ body {
 .contact form input[type='submit']{
   float: right;
   margin-top: 10px;
-  padding: 7px 30px;
-  background-color: crimson;
-  color: white;
+  padding: 10px 35px;
+  background-color: white;
+  color: crimson;
   outline: none;
-  border: 1px solid crimson;
-  border-radius: 3px;
+  border: 1px solid #ddd;
   cursor: pointer;
   font-family: 'Open Sans' Condensed;
   font-weight: 700;
 }
 .contact form input[type='submit']:hover{
-  color: crimson;
-  background-color: white;
-  border: 1px solid #ddd;
+  color: white;
+  background-color: crimson;
+  border: 1px solid crimson;
+  transition: .3s;
 }
-
+.contact .contact__dets{
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact__dets ul li{
+  list-style: none;
+  display: flex;
+  margin-bottom: 30px;
+}
+.contact .contact__dets ul li img{
+  width: 40px;
+  margin-right: 20px;
+}
+.contact .contact__dets ul li .dets h3{
+  font-family: 'Open Sans' Condensed;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #1d1d1d;
+  padding-bottom: 5px;
+}
+.contact .contact__dets ul li .dets h3{
+  font-family: 'Open Sans' Condensed;
+  font-size: 1.1rem;
+  color: #1d1d1d;
+}
 /* About Us */
 
 .about{

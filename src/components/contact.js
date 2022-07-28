@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../images/logo4.png';
 import logo1 from '../images/logo7.png';
+import home from '../images/home.png';
+import mail from '../images/mail.png';
+import phone from '../images/phone.png';
 
 class Contact extends Component{
     render(){
@@ -26,7 +29,7 @@ class Contact extends Component{
 
                 <div className='contact'>
                     <form>
-                        <h1>How can we help</h1>
+                        <h1>Get In Touch</h1>
                         <div className='contact-first'>
                             <input type='text' placeholder='Name' required/>
                             <input type='email' placeholder='Your Email' required/>
@@ -34,8 +37,33 @@ class Contact extends Component{
                         <div className='message'>
                             <textarea placeholder='Your Message' required></textarea>
                         </div>
-                        <input type='submit'/>
+                        <input type='submit' value='SEND'/>
                     </form>
+                    <div className='contact__dets'>
+                        <ul>
+                            <li>
+                                <img src={home} alt='address'/>
+                                <div className='dets'>
+                                    <h3>Nairobi, Kenya</h3>
+                                    <p>Avenue 2 Kenyatta Rd (Off-Thika Rd)</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src={phone} alt='phone'/>
+                                <div className='dets'>
+                                    <h3>Call us</h3>
+                                    <p>(254) 715-657-003</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src={mail} alt='mail'/>
+                                <div className='dets'>
+                                    <h3>info@destivenmerchants.com</h3>
+                                    <p>Send us your query anytime!</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div className='footer'>
