@@ -67,8 +67,18 @@ class Contact extends Component{
                 </div>
 
                 <div className='footer'>
-                    <div className='footer__left'>
+                        <div className='footer__left'>
                         <img src={logo1} alt='logo' width='120'/>
+                        <p>With us at your disposal, you will focus on running your business instead of managing it daily. So what are you waiting for? Get in touch with us.</p>
+                    </div>
+                    <div className='mid__footer'>
+                        <h1>Navigation</h1>
+                        <ul>
+                            <li>Home</li>
+                            <li>Blog</li>
+                            <li>About Us</li>
+                            <li>Contact</li>
+                        </ul>
                     </div>
                     <div className='footer__centre'>
                         <h1>Contact Us:</h1>

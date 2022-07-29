@@ -113,12 +113,27 @@ body {
 
 .footer{
   background-color: #1d1d1d;
-  padding-left: 50px;
+  padding-left: 100px;
   padding-bottom: 0;
   color: white;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 50px;
   display: flex;
+}
+.footer .footer__left p{
+  width: 300px;
+  padding-top: 25px;
+  font-family: 'Open Sans' condensed;
+  font-size: 1rem;
+  line-height: 25px;
+}
+.footer .mid__footer{
+  padding-left: 120px;
+  text-align: center;
+}
+.footer .mid__footer ul li:hover{
+  color: #F9F9F9;
+  cursor: pointer;
 }
 .footer .footer__centre h1{
   font-size: 1.3rem;
@@ -126,18 +141,22 @@ body {
   padding-bottom: 15px;
 }
 .footer .footer__centre{
-  margin-left: 250px;
-  margin-right: 250px;
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: center;
 }
-.footer .footer__right h1{
+.footer .footer__right{
+  text-align: center;
+}
+.footer .footer__right h1, .mid__footer h1{
   font-size: 1.3rem;
   font-weight: 200;
   padding-bottom: 15px;
 }
-.footer .footer__right ul{
+.footer .footer__right ul, .mid__footer ul{
   padding-left: 0;
 }
-.footer .footer__right ul li{
+.footer .footer__right ul li, .mid__footer ul li{
   list-style: none;
   padding-bottom: 10px;
 }
@@ -157,7 +176,7 @@ body {
   background-color: #1d1d1d;
   text-align: center;
   color: #ddd;
-  padding-bottom: 30px; 
+  padding-bottom: 50px; 
 }
 
 /* Contact */
@@ -490,7 +509,7 @@ body {
 }
 .home .home__section .home__desc button{
   margin-top: 30px;
-  padding: 10px 20px;
+  padding: 15px 30px;
   color: white;
   border: 1px solid crimson;
   outline: none;
@@ -551,29 +570,73 @@ body {
   left: 45%;
   margin-bottom: 50px;
 }
-.home .last__section .section1{
+.home .last__section .section1, .section2{
   padding-left: 100px;
-  padding-top: 40px;
+  padding-top: 60px;
   padding-right: 120px;
   display: flex;
+  padding-bottom: 50px;
 }
-.home .last__section .section1 img{
+.home .last__section .section1 img, .section2 img{
   width: 350px;
   border-radius: 5px;
 }
 .home .last__section .section1 .desc{
   margin-left: 60px;
 }
-.home .last__section .section1 .desc h2{
+.home .last__section .section1 .desc h2, .section2 .desc h2{
   font-family: 'Open Sans' Condensed;
   font-size: 1.8rem;
   font-weight: 500;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   color: crimson;
 }
-.home .last__section .section1 .desc p{
+.home .last__section .section1 .desc p, .section2 .desc p{
   font-family: 'Open Sans' Condensed;
   font-size: 1.1rem;
   color: #1d1d1d;
   line-height: 28px;
+}
+.home .last__section .section2 .desc{
+  margin-right: 60px;
+}
+.home .final__section{
+  margin-top: 70px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #F6F1EA;
+}
+.home .final__section .desc{
+  padding-right: 130px;
+}
+.home .final__section .desc h2{
+  font-family: 'Open Sans' Condensed;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #1d1d1d;
+  padding-bottom: 20px;
+}
+.home .final__section .desc p{
+  font-family: 'Open Sans' Condensed;
+  color: #1d1d1d;
+  line-height: 25px;
+  font-size: 1.2rem;
+}
+.home .final__section button{
+  padding: 15px 30px;
+  font-family: 'Open Sans' Condensed;
+  font-size: 1.2rem;
+  font-weight: 700;
+  outline: none;
+  border: 1px solid crimson;
+  color: white;
+  background-color: crimson;
+  cursor: pointer;
+}
+.home .final__section button:hover{
+  background-color: white;
+  color: crimson;
 }
