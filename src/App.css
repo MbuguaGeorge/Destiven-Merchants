@@ -447,6 +447,7 @@ body {
   padding-left: 100px;
   display: flex;
   padding-right: 100px;
+  padding-bottom: 100px;
 }
 .home .home__section .hero1 img{
   width: 400px;
@@ -501,4 +502,78 @@ body {
 .home .home__section .home__desc button:hover{
   background-color: white;
   color: crimson;
+}
+.home .mid__section{
+  padding-top: 70px;
+  background-color: #F7F7F7;
+  padding-bottom: 100px;
+}
+.home .mid__section h1{
+  font-family: 'Open Sans' Condensed;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1d1d1d;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+.home .mid__section .border{
+  border: 1px solid #ddd;
+  width: 300px;
+  position: relative;
+  left: 40%;
+  margin-bottom: 50px;
+}
+.home .mid__section p{
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-family: 'Open Sans' Condensed;
+  line-height: 30px;
+  color: #111;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.home .last__section{
+  padding-top: 80px;
+}
+.home .last__section h1{
+  font-family: 'Open Sans' Condensed;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1d1d1d;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.home .last__section .border{
+  border: 1px solid #ddd;
+  width: 135px;
+  position: relative;
+  left: 45%;
+  margin-bottom: 50px;
+}
+.home .last__section .section1{
+  padding-left: 100px;
+  padding-top: 40px;
+  padding-right: 120px;
+  display: flex;
+}
+.home .last__section .section1 img{
+  width: 350px;
+  border-radius: 5px;
+}
+.home .last__section .section1 .desc{
+  margin-left: 60px;
+}
+.home .last__section .section1 .desc h2{
+  font-family: 'Open Sans' Condensed;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-bottom: 50px;
+  color: crimson;
+}
+.home .last__section .section1 .desc p{
+  font-family: 'Open Sans' Condensed;
+  font-size: 1.1rem;
+  color: #1d1d1d;
+  line-height: 28px;
 }

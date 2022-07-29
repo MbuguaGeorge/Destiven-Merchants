@@ -6,7 +6,7 @@ import logo1 from '../images/logo7.png';
 import hero2 from '../images/hero2.jpg';
 import hero3 from '../images/hero3.jpg';
 import hero4 from '../images/hero4.jpg';
-
+import hero5 from '../images/hero5.jpg';
 
 class Home extends Component{
     render(){
@@ -51,7 +51,22 @@ class Home extends Component{
                         </div>
                     </div>
                     <div className='mid__section'>
-
+                        <h1>What do you want to achieve?</h1>
+                        <div className='border'></div>
+                        <p style={{paddingBottom: '40px', fontWeight: '600'}}>Before we start, we ask one simple question: What do you want to achieve?</p>
+                        <p style={{paddingBottom: '20px'}}>Whether it's SEO for Shopify, content marketing for Shopify, social media for Shopify, or management for Shopify store, we start by asking, “What do you want to achieve?” This way, we get to the core of what our clients do and use the information as the foundation to work on your Shopify store and grow your brand.</p>
+                        <p>Whether you're an established fortune 500 brand or a new brand store does not matter. Our approach to ecommerce management and marketing strategies combines science and human behavior into a result-oriented system. You'll grow and scale while maintaining a solid ROI.</p>
+                    </div>
+                    <div className='last__section'>
+                        <h1>What we do.</h1>
+                        <div className='border'></div>
+                        <div className='section1'>
+                            <img src={hero5} alt='hero5' />
+                            <div className='desc'>
+                                <h2>Management for Shopify</h2>
+                                <p>Shopify ecommerce brands have a tremendous opportunity to grow and scale their business to their full potential by leveraging virtual assistance. Gone are the days of having to upload, import, edit, and research products yourself. We have you covered for this. You should focus on how to boost your brand awareness. Leave the essential tasks to us.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
