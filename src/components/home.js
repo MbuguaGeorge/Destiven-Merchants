@@ -2,13 +2,11 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../images/logo4.png';
 import logo1 from '../images/logo7.png';
-import hero1 from '../images/hero1.jpg';
+
 import hero2 from '../images/hero2.jpg';
 import hero3 from '../images/hero3.jpg';
 import hero4 from '../images/hero4.jpg';
-import hero5 from '../images/hero5.jpg';
-import hero6 from '../images/hero6.jpg';
-import hero7 from '../images/hero7.jpg';
+
 
 class Home extends Component{
     render(){
