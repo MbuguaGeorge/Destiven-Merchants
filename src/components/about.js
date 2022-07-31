@@ -28,6 +28,7 @@ class About extends Component{
                         <Link style={{textDecoration: 'None'}}  to="/"><li>Home</li></Link>
                         
                         <Link style={{textDecoration: 'None'}}  to="/blog"><li>Blog</li></Link>
+                        <Link style={{textDecoration: 'None'}}  to="/services"><li>Services</li></Link>
                         <Link style={{textDecoration: 'None'}}  to="/about"><li>About Us</li></Link>
                         <Link style={{textDecoration: 'None'}}  to="/contact"><li>Contact</li></Link>
                     </ul>

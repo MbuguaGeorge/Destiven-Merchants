@@ -7,8 +7,6 @@ import hero3 from '../images/hero3.jpg';
 import hero4 from '../images/hero4.jpg';
 import hero5 from '../images/hero5.jpg';
 import hero6 from '../images/hero6.jpg';
-import hero7 from '../images/hero7.jpg';
-import hero8 from '../images/hero8.jpg';
 
 class Home extends Component{
     render(){
@@ -21,6 +19,7 @@ class Home extends Component{
                     <ul>
                         <Link style={{textDecoration: 'None'}}  to="/"><li>Home</li></Link>
                         <Link style={{textDecoration: 'None'}}  to="/blog"><li>Blog</li></Link>
+                        <Link style={{textDecoration: 'None'}}  to="/services"><li>Services</li></Link>
                         <Link style={{textDecoration: 'None'}}  to="/about"><li>About Us</li></Link>
                         <Link style={{textDecoration: 'None'}}  to="/contact"><li>Contact</li></Link>
                     </ul>
@@ -46,7 +45,7 @@ class Home extends Component{
                             <img src={hero3} alt='hero3' />
                         </div>
                         <div className='home__desc'>
-                            <h1>Thousands of customers trust our company</h1>
+                            <h1>You have a vision, We have a way to get you there.</h1>
                             <p style={{paddingBottom: '20px'}}>A premier Shopify agency specializing in management and ecommerce marketing solutions for global Shopify brands.</p>
                             <p>We specialize in delivering Shopify ecommerce solutions that outperform our client's expectations across <span>Shopify management</span>, and <span> Shopify marketing strategy.</span></p>
                             <button>Let's Talk</button>
@@ -65,7 +64,7 @@ class Home extends Component{
                         <div className='section1'>
                             <img src={hero5} alt='hero5' />
                             <div className='desc'>
-                                <h2>Management for Shopify</h2>
+                                <h2>Shopify Store Management</h2>
                                 <p>Shopify ecommerce brands have a tremendous opportunity to grow and scale their business to their full potential by leveraging virtual assistance. Gone are the days of having to upload, import, edit, and research products yourself. We have you covered for this. You should focus on how to boost your brand awareness. Leave the essential tasks to us.</p>
                             </div>
                         </div>
@@ -78,27 +77,19 @@ class Home extends Component{
                             </div>
                             <img src={hero6} alt='hero6'/>
                         </div>
-                        <div className='section1'>
-                            <img src={hero7} alt='hero7' />
-                            <div className='desc'>
-                                <h2>Content for Shopify</h2>
-                                <p>Content is at the heart of modern marketing. Everything a brand does or plans to do revolves around content. The major obstacle for Shopify merchants is the ability to produce quality content at scale - we have it covered. Through creation and storytelling, our content teams work on written formats that are SEO optimized. Whatever brand you're presenting, you'll have content to serve your consumers.</p>
-                            </div>
-                        </div>
-                        <div className='section2'>
-                            <div className='desc'>
-                                <h2>Social Media for Shopify</h2>
-                                <p>Building a brand, increasing awareness, and getting recognition for outstanding creativity are all beautiful things, but ultimately, running a successful ecommerce business comes down to the numbers. Are you boosting sales and generating a profit?
-                                Our paid media approach can change your client base and revenue estimates while complementing your long-term organic goals. 
-                                </p>
-                            </div>
-                            <img src={hero8} alt='hero8'/>
+                        <div className='but'>
+                            <button>Explore More</button>
                         </div>
                     </div>
+                    <div className='explore__section'>
+                        <h2>Why you should consider Hiring a Virtual Assistant</h2>
+                        <p>The best this about hiring a Shopify virtual assistant is: that you save a lot of operational costs, from salaries, allowances, and other employee benefits. Virtual Assistant assists you to grow and scale the scope of your Shopify brand without compromising on the quality aspect. Our Virtual assistants will help in providing comprehensive customer support and perform on-page and off-page SEO activities for your online business.</p>
+                    </div>
                     <div className='final__section'>
+                        <div className='overlay'></div>
                         <div className='desc'>
-                            <h2>We do business, not just optimizing & managing your Shopify store</h2>
-                            <p>Whether you’re looking for managing, optimizing, scaling, and growing, we are ready to provide that for You.</p>
+                            <h2>We do business, not just optimizing & managing your Shopify brand.</h2>
+                            <p>Whether you're looking for managing, optimizing, scaling, and growing, we are ready to provide that for You.</p>
                         </div>
                         <div className='button'>
                             <button>Get in Touch</button>
@@ -109,7 +100,7 @@ class Home extends Component{
                 <div className='footer'>
                     <div className='footer__left'>
                         <img src={logo1} alt='logo' width='120'/>
-                        <p>With us at your disposal, you will focus on running your business instead of managing it daily. So what are you waiting for? Get in touch with us.</p>
+                        <p>Get a dedicated Shopify Virtual Assistant to do your tasks in the best way possible.</p>
                     </div>
                     <div className='mid__footer'>
                         <h1>Navigation</h1>

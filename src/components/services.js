@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../images/logo4.png';
 import logo1 from '../images/logo7.png';
-import home from '../images/home.png';
-import mail from '../images/mail.png';
-import phone from '../images/phone.png';
+import logo from '../images/logo4.png';
 
-class Contact extends Component{
+import hero7 from '../images/hero7.jpg';
+
+
+class Service extends Component{
     render(){
         return (
             <>
@@ -25,42 +25,26 @@ class Contact extends Component{
 
                 <div className='hero-div'></div>
                 <div className='hero'>
-                    <h2>Contact <span style={{marginLeft: '0'}}>Us</span></h2>
+                    <h2>Services</h2>
                 </div>
 
-                <div className='contact'>
-                    <form>
-                        <h1>Get In Touch</h1>
-                        <div className='contact-first'>
-                            <input type='text' placeholder='Name' required/>
-                            <input type='email' placeholder='Your Email' required/>
-                        </div>
-                        <div className='message'>
-                            <textarea placeholder='Your Message' required></textarea>
-                        </div>
-                        <input type='submit' value='SEND'/>
-                    </form>
-                    <div className='contact__dets'>
+                <div className='service'>
+                    <h1>Our Exclusive Services</h1>
+                    <h1>We Offer For You</h1>
+                    <div className='offer'>
                         <ul>
                             <li>
-                                <img src={home} alt='address'/>
-                                <div className='dets'>
-                                    <h3>Address</h3>    
-                                    <p>Avenue 2 Kenyatta Rd (Off-Thika Rd)</p>
+                                <img src={hero7} alt='hero7'/>
+                                <div className='desc'>
+                                    <h2>Content For Shopify</h2>
+                                    <p>Content is at the heart of modern marketing. Everything a brand does or plans to do revolves around content. The major obstacle for Shopify merchants is the ability to produce quality content at scale - we have it covered. Through creation and storytelling, our content teams work on written formats that are SEO optimized. Whatever brand you're presenting, you'll have content to serve your consumers.</p>
                                 </div>
                             </li>
                             <li>
-                                <img src={phone} alt='phone'/>
-                                <div className='dets'>
-                                    <h3>Call us</h3>
-                                    <p>(254) 715-657-003</p>
-                                </div>
-                            </li>
-                            <li>
-                                <img src={mail} alt='mail'/>
-                                <div className='dets'>
-                                    <h3>info@destivenmerchants.com</h3>
-                                    <p>Send us your query anytime!</p>
+                                <img src={hero7} alt='hero7'/>
+                                <div className='desc'>
+                                    <h2>Content For Shopify</h2>
+                                    <p>Content is at the heart of modern marketing. Everything a brand does or plans to do revolves around content. The major obstacle for Shopify merchants is the ability to produce quality content at scale - we have it covered. Through creation and storytelling, our content teams work on written formats that are SEO optimized. Whatever brand you're presenting, you'll have content to serve your consumers.</p>
                                 </div>
                             </li>
                         </ul>
@@ -68,9 +52,9 @@ class Contact extends Component{
                 </div>
 
                 <div className='footer'>
-                        <div className='footer__left'>
-                        <img src={logo1} alt='logo' width='120'/>
-                        <p>With us at your disposal, you will focus on running your business instead of managing it daily. So what are you waiting for? Get in touch with us.</p>
+                    <div className='footer__left'>
+                    <img src={logo1} alt='logo' width='120'/>
+                    <p>With us at your disposal, you will focus on running your business instead of managing it daily. So what are you waiting for? Get in touch with us.</p>
                     </div>
                     <div className='mid__footer'>
                         <h1>Navigation</h1>
@@ -112,4 +96,4 @@ class Contact extends Component{
     }
 }
 
-export default Contact; 
+export default Service; 

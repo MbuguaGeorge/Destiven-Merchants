@@ -3,6 +3,7 @@ import Home from './components/home';
 import About from './components/about';
 import Contact from './components/contact';
 import Blog from './components/blog';
+import Service from './components/services';
 import './App.css'
 
 function App(){
@@ -13,6 +14,7 @@ function App(){
           <Route exact path="/about" element={<About/>} />
           <Route exact path="/contact" element={<Contact/>} />
           <Route exact path="/blog" element={<Blog/>} />
+          <Route exact path="/services" element={<Service/>} />
         </Routes>
       </Router>
   )

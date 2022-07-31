@@ -458,6 +458,7 @@ body {
 }
 
 /* Home */
+
 .home{
   padding-bottom: 200px;
 }
@@ -467,6 +468,7 @@ body {
   display: flex;
   padding-right: 100px;
   padding-bottom: 100px;
+  background-color: #F7F7F7;
 }
 .home .home__section .hero1 img{
   width: 400px;
@@ -524,7 +526,6 @@ body {
 }
 .home .mid__section{
   padding-top: 70px;
-  background-color: #F7F7F7;
   padding-bottom: 100px;
 }
 .home .mid__section h1{
@@ -553,7 +554,9 @@ body {
   font-weight: 400;
 }
 .home .last__section{
-  padding-top: 80px;
+  padding-top: 70px;
+  background-color: #F4EEFE;
+  padding-bottom: 50px;
 }
 .home .last__section h1{
   font-family: 'Open Sans' Condensed;
@@ -572,7 +575,7 @@ body {
 }
 .home .last__section .section1, .section2{
   padding-left: 100px;
-  padding-top: 60px;
+  padding-top: 50px;
   padding-right: 120px;
   display: flex;
   padding-bottom: 50px;
@@ -599,6 +602,22 @@ body {
 }
 .home .last__section .section2 .desc{
   margin-right: 60px;
+}
+.home .last__section .but{
+  text-align: center;
+}
+.home .last__section .but button{
+  padding: 15px 30px;
+  outline: none;
+  border: 1px solid crimson;
+  color: white;
+  background-color: crimson;
+  cursor: pointer;
+  font-family: 'Open Sans' Condensed;
+}
+.home .last__section .but button:hover{
+  color: crimson;
+  background-color: white;
 }
 .home .final__section{
   margin-top: 70px;
@@ -639,4 +658,68 @@ body {
 .home .final__section button:hover{
   background-color: white;
   color: crimson;
+}
+.home .explore__section{
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.home .explore__section h2{
+  font-family: 'Open Sans' Condensed;
+  color: #1d1d1d;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 40px;
+}
+.home .explore__section p{
+  font-family: 'Open Sans' Condensed;
+  color: #1d1d1d;
+  font-weight: 600;
+  line-height: 30px;
+  padding-right: 150px;
+  font-size: 1.1rem;
+}
+
+/* services */
+
+.service{
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.service h1{
+  font-family: 'Open Sans' Condensed;
+  font-size: 2.5rem;
+  color: #111;
+  font-weight: 500;
+  text-align: center;
+  line-height: 45px;
+  letter-spacing: 2px;
+}
+.service .offer{
+
+  padding-top: 50px;
+}
+.service .offer ul{
+  display: flex;
+}
+.service .offer ul li{
+  list-style: none;
+  display: flex;
+  width: 60%;
+}
+.service .offer ul li img{
+  width: 250px;
+}
+.service .offer ul li .desc{
+  padding-left: 40px;
+}
+.service .offer ul li .desc h2{
+  font-family: 'Open Sans' Condensed;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+.service .offer ul li .desc p{
+  font-family: 'Open Sans' Condensed;
+  color: #1d1d1d;
+  line-height: 25px;
+  font-size: 1.1rem;
 }
