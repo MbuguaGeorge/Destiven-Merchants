@@ -7,6 +7,10 @@ import hero3 from '../images/hero3.jpg';
 import hero4 from '../images/hero4.jpg';
 import hero5 from '../images/hero5.jpg';
 import hero6 from '../images/hero6.jpg';
+import img8 from '../images/img8.png';
+import img9 from '../images/img9.png';
+import img10 from '../images/img10.png';
+import img11 from '../images/img11.png';
 import { HashLink } from 'react-router-hash-link';
 
 class Home extends Component{
@@ -95,6 +99,23 @@ class Home extends Component{
                         <div className='button'>
                             <button>Get in Touch</button>
                         </div>
+                    </div>
+                    <div className='verify'>
+                        <h3>Verified by:</h3>
+                        <ul>
+                            <li>
+                                <img src={img8} alt='img8' />
+                            </li>
+                            <li>
+                                <img src={img9} alt='img9' />
+                            </li>
+                            <li>
+                                <img src={img10} alt='img10' />
+                            </li>
+                            <li>
+                                <img src={img11} alt='img11' />
+                            </li>
+                        </ul>
                     </div>
                 </div>
 

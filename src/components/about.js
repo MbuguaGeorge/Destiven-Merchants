@@ -8,10 +8,6 @@ import img3 from '../images/img3.png';
 import img4 from '../images/img4.png';
 import img6 from '../images/img6.png';
 import img7 from '../images/img7.png';
-import img8 from '../images/img8.png';
-import img9 from '../images/img9.png';
-import img10 from '../images/img10.png';
-import img11 from '../images/img11.png';
 import pic1 from '../images/pic1.png';
 import pic2 from '../images/pic2.png';
 import pic3 from '../images/pic3.png';
@@ -41,7 +37,7 @@ class About extends Component{
 
                 <div className='about'>
                     <div className='about__us'>
-                    <h5>Our <span>Story</span></h5>
+                    <h5>Who <span>We are</span></h5>
                         <p>Destiven Merchants provides services that will help you run your business more efficiently. We're a team of experienced, knowledgeable, dedicated web developers, virtual assistants, and SEO and marketing consultants. We're on a mission to empower Shopify stores with an online presence worldwide to deliver top-notch results.</p>
                         <p> 
                         By understanding customer needs, we advise businesses on the best way to address them. As a creative agency, our sole purpose is to help Shopify business level their efficiency and performance and deliver exceptional customer experience.
@@ -92,9 +88,6 @@ class About extends Component{
                         <p>To provide the best customer results possible and deliver the WOW! Factor through our services.</p>
                         <p>
                         To provide innovative and effective integrated brand marketing optimization solutions to help our clients grow their businesses and realize their goals.</p>
-                        <p style={{marginTop: '50px'}} >
-                        With us at your disposal, you will focus on running your business instead of managing it daily. So what are you waiting for? Get in touch with us.  
-                        </p>
                     </div>
                     <div className='testimonials'>
                         <h4>Testimonials</h4>
@@ -132,22 +125,14 @@ class About extends Component{
                             </div>
                         </div>
                     </div>
-                    <div className='verify'>
-                        <h3>Verified by:</h3>
-                        <ul>
-                            <li>
-                                <img src={img8} alt='img8' />
-                            </li>
-                            <li>
-                                <img src={img9} alt='img9' />
-                            </li>
-                            <li>
-                                <img src={img10} alt='img10' />
-                            </li>
-                            <li>
-                                <img src={img11} alt='img11' />
-                            </li>
-                        </ul>
+                    <div className='final__section'>
+                        <div className='overlay'></div>
+                        <div className='desc'>
+                            <p>With us at your disposal, you will focus on running your business instead of managing it daily. So what are you waiting for?</p>
+                        </div>
+                        <div className='button'>
+                            <button>Get in Touch</button>
+                        </div>
                     </div>
                 </div>
 
