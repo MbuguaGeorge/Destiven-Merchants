@@ -33,10 +33,9 @@ class Home extends Component{
                 <div className='hero-div'></div>
                     <div className='hero'>
                         <h2>Grow</h2>
-                        <div className='and'>
-                    </div>
+                        <div className='and'></div>
                     <span>Scale</span>
-                </div>
+                    </div>
 
                 <div className='home'>
                     <div className='home__section'>
@@ -91,13 +90,14 @@ class Home extends Component{
                         <p>The best this about hiring a Shopify virtual assistant is: that you save a lot of operational costs, from salaries, allowances, and other employee benefits. Virtual Assistant assists you to grow and scale the scope of your Shopify brand without compromising on the quality aspect. Our Virtual assistants will help in providing comprehensive customer support and perform on-page and off-page SEO activities for your online business.</p>
                     </div>
                     <div className='final__section'>
-                        <div className='overlay'></div>
+                        <div className='overlay'>
                         <div className='desc'>
                             <h2>We do business, not just optimizing & managing your Shopify brand.</h2>
                             <p>Whether you're looking for managing, optimizing, scaling, and growing, we are ready to provide that for You.</p>
                         </div>
                         <div className='button'>
-                        <HashLink smooth to='/contact#contact'><button>GET IN TOUCH</button></HashLink>
+                            <HashLink smooth to='/contact#contact'><button>GET IN TOUCH</button></HashLink>
+                        </div>
                         </div>
                     </div>
                     <div className='verify'>
