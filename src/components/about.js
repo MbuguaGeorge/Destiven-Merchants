@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { HashLink } from 'react-router-hash-link';
 import {Link} from 'react-router-dom';
 import logo from '../images/logo4.png';
 import logo1 from '../images/logo7.png';
@@ -131,7 +132,7 @@ class About extends Component{
                             <p>With us at your disposal, you will focus on running your business instead of managing it daily. So what are you waiting for?</p>
                         </div>
                         <div className='button'>
-                            <button>Get in Touch</button>
+                            <HashLink smooth to='/contact#contact'><button>CONTACT US</button></HashLink>
                         </div>
                     </div>
                 </div>

@@ -97,7 +97,7 @@ class Home extends Component{
                             <p>Whether you're looking for managing, optimizing, scaling, and growing, we are ready to provide that for You.</p>
                         </div>
                         <div className='button'>
-                            <button>Get in Touch</button>
+                        <HashLink smooth to='/contact#contact'><button>GET IN TOUCH</button></HashLink>
                         </div>
                     </div>
                     <div className='verify'>
