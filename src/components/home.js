@@ -7,6 +7,7 @@ import hero3 from '../images/hero3.jpg';
 import hero4 from '../images/hero4.jpg';
 import hero5 from '../images/hero5.jpg';
 import hero6 from '../images/hero6.jpg';
+import { HashLink } from 'react-router-hash-link';
 
 class Home extends Component{
     render(){
@@ -78,7 +79,7 @@ class Home extends Component{
                             <img src={hero6} alt='hero6'/>
                         </div>
                         <div className='but'>
-                            <button>Explore More</button>
+                            <HashLink smooth to='/services#services'><button>EXPLORE MORE</button></HashLink>
                         </div>
                     </div>
                     <div className='explore__section'>
@@ -105,10 +106,11 @@ class Home extends Component{
                     <div className='mid__footer'>
                         <h1>Navigation</h1>
                         <ul>
-                            <li>Home</li>
-                            <li>Blog</li>
-                            <li>About Us</li>
-                            <li>Contact</li>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/"><li>Home</li></Link>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/blog"><li>Blog</li></Link>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/services"><li>Services</li></Link>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/about"><li>About Us</li></Link>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/contact"><li>Contact</li></Link>
                         </ul>
                     </div>
                     <div className='footer__centre'>

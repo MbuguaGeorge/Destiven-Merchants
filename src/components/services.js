@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
+import { HashLink } from 'react-router-hash-link';
 import {Link} from 'react-router-dom';
 import logo1 from '../images/logo7.png';
 import logo from '../images/logo4.png';
-
+import hero5 from '../images/hero5.jpg';
+import hero6 from '../images/hero6.jpg';
 import hero7 from '../images/hero7.jpg';
-
+import hero8 from '../images/hero8.jpg';
+import hero9 from '../images/banner3.jpg';
+import hero10 from '../images/hero10.jpg';
 
 class Service extends Component{
     render(){
@@ -28,41 +32,76 @@ class Service extends Component{
                     <h2>Services</h2>
                 </div>
 
-                <div className='service'>
-                    <h1>Our Exclusive Services</h1>
-                    <h1>We Offer For You</h1>
-                    <div className='offer'>
-                        <ul>
-                            <li>
-                                <img src={hero7} alt='hero7'/>
-                                <div className='desc'>
-                                    <h2>Content For Shopify</h2>
-                                    <p>Content is at the heart of modern marketing. Everything a brand does or plans to do revolves around content. The major obstacle for Shopify merchants is the ability to produce quality content at scale - we have it covered. Through creation and storytelling, our content teams work on written formats that are SEO optimized. Whatever brand you're presenting, you'll have content to serve your consumers.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <img src={hero7} alt='hero7'/>
-                                <div className='desc'>
-                                    <h2>Content For Shopify</h2>
-                                    <p>Content is at the heart of modern marketing. Everything a brand does or plans to do revolves around content. The major obstacle for Shopify merchants is the ability to produce quality content at scale - we have it covered. Through creation and storytelling, our content teams work on written formats that are SEO optimized. Whatever brand you're presenting, you'll have content to serve your consumers.</p>
-                                </div>
-                            </li>
-                        </ul>
+                <div className='home' style={{backgroundColor: 'white'}}>
+                    <div className='last__section' id='services'>
+                        <h1>What we offer.</h1>
+                        <div className='border'></div>
+                        <div className='section1'>
+                            <img src={hero5} alt='hero5' />
+                            <div className='desc'>
+                                <h2>Shopify Store Management</h2>
+                                <p>Shopify ecommerce brands have a tremendous opportunity to grow and scale their business to their full potential by leveraging virtual assistance. Gone are the days of having to upload, import, edit, and research products yourself. We have you covered for this. You should focus on how to boost your brand awareness. Leave the essential tasks to us.</p>
+                            </div>
+                        </div>
+                        <div className='section2'>
+                            <div className='desc'>
+                                <h2>SEO for Shopify</h2>
+                                <p>Search engines are bridges between a brand and a customer. You must optimize your products to rank higher on major search engines. Before ranking, you need to understand what problem a consumer is trying to solve and offer the right solution. 
+                                SEO and SEM allow brands to present the best product to the client at the top of their search results. 
+                                </p>
+                            </div>
+                            <img src={hero6} alt='hero6'/>
+                        </div>
+                        <div className='section1'>
+                            <img src={hero7} alt='hero5' />
+                            <div className='desc'>
+                                <h2>Content for Shopify</h2>
+                                <p>Content is at the heart of modern marketing. Everything a brand does or plans to do revolves around content. The major obstacle for Shopify merchants is the ability to produce quality content at scale – we have it covered. Through creation and storytelling, our content teams work on written formats that are SEO optimized. Whatever brand you’re presenting, you’ll have content to serve your consumers.</p>
+                            </div>
+                        </div>
+                        <div className='section2'>
+                            <div className='desc'>
+                                <h2>SEO for Shopify</h2>
+                                <p>Search engines are bridges between a brand and a customer. You must optimize your products to rank higher on major search engines. Before ranking, you need to understand what problem a consumer is trying to solve and offer the right solution. 
+                                SEO and SEM allow brands to present the best product to the client at the top of their search results. 
+                                </p>
+                            </div>
+                            <img src={hero8} alt='hero6'/>
+                        </div>
+                        <div className='section1'>
+                            <img src={hero9} alt='hero5' />
+                            <div className='desc'>
+                                <h2>Website Development</h2>
+                                <p>We offer Custom Software Development on the web and mobile for Small businesses and Enterprises. We offer full-cycle Software Development services delivering innovative solutions in Product Development, Technology Consulting, and IT Outsourcing.</p>
+                            </div>
+                        </div>
+                        <div className='section2'>
+                            <div className='desc'>
+                                <h2>Data Entry</h2>
+                                <p>In every sense of the word, businesses today is Data- Driven. Data is streaming in at breakneck speed and from every direction. The old way of handling this was setting up a great staff, lots of office space, and lots of hardware and software to store and access that information. Outsourcing your data entry could be vital to being more competitive in your business sector. Thinking Outsource Partner For Data Entry Services? We offer data mining, entry, cleansing, and processing. Image data or product data – We’ve you covered.     
+                                </p>
+                            </div>
+                            <img src={hero10} alt='hero6'/>
+                        </div>
+                        <div className='but'>
+                            <HashLink smooth to='/contact#contact'><button>CONTACT US</button></HashLink>
+                        </div>
                     </div>
                 </div>
 
                 <div className='footer'>
                     <div className='footer__left'>
                     <img src={logo1} alt='logo' width='120'/>
-                    <p>With us at your disposal, you will focus on running your business instead of managing it daily. So what are you waiting for? Get in touch with us.</p>
+                    <p>Get a dedicated Shopify Virtual Assistant to do your tasks in the best way possible.</p>
                     </div>
                     <div className='mid__footer'>
                         <h1>Navigation</h1>
                         <ul>
-                            <li>Home</li>
-                            <li>Blog</li>
-                            <li>About Us</li>
-                            <li>Contact</li>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/"><li>Home</li></Link>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/blog"><li>Blog</li></Link>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/services"><li>Services</li></Link>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/about"><li>About Us</li></Link>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/contact"><li>Contact</li></Link>
                         </ul>
                     </div>
                     <div className='footer__centre'>

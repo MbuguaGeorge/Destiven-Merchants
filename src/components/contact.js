@@ -28,7 +28,7 @@ class Contact extends Component{
                     <h2>Contact <span style={{marginLeft: '0'}}>Us</span></h2>
                 </div>
 
-                <div className='contact'>
+                <div className='contact' id='contact'>
                     <form>
                         <h1>Get In Touch</h1>
                         <div className='contact-first'>
@@ -70,15 +70,16 @@ class Contact extends Component{
                 <div className='footer'>
                         <div className='footer__left'>
                         <img src={logo1} alt='logo' width='120'/>
-                        <p>With us at your disposal, you will focus on running your business instead of managing it daily. So what are you waiting for? Get in touch with us.</p>
+                        <p>Get a dedicated Shopify Virtual Assistant to do your tasks in the best way possible.</p>
                     </div>
                     <div className='mid__footer'>
                         <h1>Navigation</h1>
                         <ul>
-                            <li>Home</li>
-                            <li>Blog</li>
-                            <li>About Us</li>
-                            <li>Contact</li>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/"><li>Home</li></Link>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/blog"><li>Blog</li></Link>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/services"><li>Services</li></Link>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/about"><li>About Us</li></Link>
+                        <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/contact"><li>Contact</li></Link>
                         </ul>
                     </div>
                     <div className='footer__centre'>
