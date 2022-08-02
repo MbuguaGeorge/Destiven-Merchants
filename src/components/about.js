@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import { HashLink } from 'react-router-hash-link';
 import {Link} from 'react-router-dom';
-import logo from '../images/logo4.png';
 import logo1 from '../images/logo7.png';
 import img1 from '../images/img1.png';
 import img2 from '../images/img2.png';
@@ -21,7 +20,7 @@ function About (){
         <>
             <div className='nav'>
                 <div className='logo'>
-                    <Link style={{textDecoration: 'None'}} to='/'><img src={logo} alt='logo'/></Link>
+                    <Link style={{textDecoration: 'None'}} to='/'><img src={logo1} alt='logo'/></Link>
                 </div>
                 <button 
                     onClick={() => {
@@ -53,9 +52,11 @@ function About (){
                 </div>
             </div>
 
-            <div className='hero-div'></div>
+            <div className='hero-div'>
+            <div className='overlay'></div>
             <div className='hero'>
                 <h2>About <span style={{marginLeft: '0'}}>Us</span></h2>
+            </div>
             </div>
 
             <div className='about'>

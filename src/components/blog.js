@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../images/logo4.png';
 import logo1 from '../images/logo7.png';
 
 function Blog (){
@@ -11,7 +10,7 @@ function Blog (){
         <>
             <div className='nav'>
                 <div className='logo'>
-                    <Link style={{textDecoration: 'None'}} to='/'><img src={logo} alt='logo'/></Link>
+                    <Link style={{textDecoration: 'None'}} to='/'><img src={logo1} alt='logo'/></Link>
                 </div>
                 <button 
                     onClick={() => {
@@ -43,9 +42,11 @@ function Blog (){
                 </div>
             </div>
 
-            <div className='hero-div'></div>
+            <div className='hero-div'>
+            <div className='overlay'></div>
             <div className='hero'>
                 <h2>Blog</h2>
+            </div>
             </div>
 
             <div className='blank'></div>

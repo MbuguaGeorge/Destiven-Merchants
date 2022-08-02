@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import { HashLink } from 'react-router-hash-link';
 import {Link} from 'react-router-dom';
 import logo1 from '../images/logo7.png';
-import logo from '../images/logo4.png';
 import hero5 from '../images/hero5.jpg';
 import hero6 from '../images/hero6.jpg';
 import hero7 from '../images/hero7.jpg';
@@ -18,7 +17,7 @@ function Service (){
         <>
         <div className='nav'>
             <div className='logo'>
-                <Link style={{textDecoration: 'None'}} to='/'><img src={logo} alt='logo'/></Link>
+                <Link style={{textDecoration: 'None'}} to='/'><img src={logo1} alt='logo'/></Link>
             </div>
             <button 
                 onClick={() => {
@@ -50,9 +49,11 @@ function Service (){
             </div>
         </div>
 
-            <div className='hero-div'></div>
+            <div className='hero-div'>
+            <div className='overlay'></div>
             <div className='hero'>
                 <h2>Services</h2>
+            </div>
             </div>
 
             <div className='home' style={{backgroundColor: 'white'}}>

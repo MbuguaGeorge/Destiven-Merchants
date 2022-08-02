@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../images/logo4.png';
 import logo1 from '../images/logo7.png';
 import hero2 from '../images/hero2.jpg';
 import hero3 from '../images/hero3.jpg';
@@ -21,7 +20,7 @@ function Home (){
         <>
             <div className='nav'>
                 <div className='logo'>
-                    <Link style={{textDecoration: 'None'}} to='/'><img src={logo} alt='logo'/></Link>
+                    <Link style={{textDecoration: 'None'}} to='/'><img src={logo1} alt='logo'/></Link>
                 </div>
                 <button 
                     onClick={() => {
@@ -53,12 +52,14 @@ function Home (){
                 </div>
             </div>
 
-            <div className='hero-div'></div>
+            <div className='hero-div'>
+                <div className='overlay'></div>
                 <div className='hero'>
                     <h2>Grow</h2>
                     <div className='and'></div>
-                <span>Scale</span>
+                    <span>Scale</span>
                 </div>
+            </div>
 
             <div className='home'>
                 <div className='home__section'>
