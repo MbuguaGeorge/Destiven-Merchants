@@ -993,21 +993,29 @@ body {
   .home .last__section .border{
     left: 35%;
   }
-  .home .last__section .section1, .section2{
+  .home .last__section .section1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 30px;
   }
-  .home .last__section .section1 img, .section2 img{
+  .home .last__section .section1 .col-left{
+    order: 1;
+  }
+  .home .last__section .section1 img{
     width: 300px;
   }
-  .home .last__section .section1 .desc, .section2 .desc{
-    margin-left: 0;
+  .home .last__section .section1 .desc{
+    padding-left: 0;
+    padding-right: 0;
     text-align: center;
+    padding-top: 30px;
+  }
+  .home .last__section .section1 .desc h2{
+    padding-bottom: 15px;
     padding-top: 30px;
   }
   .home .explore__section{
