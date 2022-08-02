@@ -195,7 +195,7 @@ body {
   }
   .hero span{
     font-size: 3rem;
-    margin-left: 150px;
+    margin-left: 140px;
   }
   .and{
     width: 80px;
@@ -394,6 +394,44 @@ body {
   font-size: 1.1rem;
   color: #1d1d1d;
 }
+
+/* responsive */
+
+@media screen and (max-width: 768px){
+  .contact{
+    padding-left: 10px;
+    display: block;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .contact .message{
+    padding-top: 0;
+  }
+  .contact .message textarea{
+    height: 150px;
+    width: 350px;
+  }
+  .contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact form .contact-first input[type='text'],.contact form .contact-first input[type='email']{
+    width: 350px;
+    padding: 18px 10px;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .contact .contact__dets{
+    margin-left: 0;
+    margin-top: 70px;
+    display: flex;
+    text-align: justify;
+  }
+}
+
 /* About Us */
 
 .about{
@@ -597,8 +635,63 @@ body {
   line-height: 25px;
   font-size: 1.2rem;
 }
-/* Home */
 
+/* responsive */
+
+@media screen and (max-width: 768px) {
+  .about .about__us{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+  }
+  .about .about__section{
+    padding-top: 50px;
+  }
+  .about .about__section .border{
+    left: 20%;
+  }
+  .about .about__section ul{
+    display: block;
+  }
+  .about .about__section ul li{
+    padding: 50px;
+  }
+  .about .values{
+    width: 100%;
+  }
+  .about .values .border{
+    left: 36%;
+  }
+  .about .testimonials{
+    margin-top: 80px;
+  }
+  .about .testimonials .container{
+    margin-left: 0;
+  }
+  .about .testimonials .border{
+    left: 35%;
+  }
+  .about .final__section{
+    padding-left: 0;
+    display: block;
+    padding-bottom: 30px;
+  }
+  .about .final__section .desc{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .about .final__section .but{
+    position: relative;
+  }
+  .about .final__section .button{
+    position: absolute;
+    left: 30%;
+  }
+}
+
+/* Home */
 
 .home .home__section{
   padding-top: 100px;
