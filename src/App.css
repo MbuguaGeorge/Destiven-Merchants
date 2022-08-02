@@ -127,7 +127,7 @@ body {
     color: crimson;
   }
   .nav{
-    width: 50%;
+    width: 100%;
     position: absolute;
   }
   .nav__menu.expanded ul{
@@ -183,7 +183,7 @@ body {
 @media screen and (max-width: 768px) {
   .hero-div{
     height: 30vh;
-    width: 50%;
+    width: 100%;
   }
   .hero{
     position: absolute;
