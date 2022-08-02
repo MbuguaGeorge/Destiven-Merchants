@@ -788,6 +788,7 @@ body {
   padding-top: 70px;
   background-color: #F4EEFE;
   padding-bottom: 50px;
+  position: relative;
 }
 .home .last__section h1{
   font-family: 'Open Sans' Condensed;
@@ -804,35 +805,37 @@ body {
   left: 45%;
   margin-bottom: 50px;
 }
-.home .last__section .section1, .section2{
-  padding-left: 100px;
-  padding-top: 50px;
-  padding-right: 120px;
+.home .last__section .section1{
   display: flex;
-  padding-bottom: 50px;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  margin-left: 120px;
+  margin-right: 100px;
 }
-.home .last__section .section1 img, .section2 img{
+.home .last__section .section1 img{
   width: 350px;
   border-radius: 5px;
 }
-.home .last__section .section1 .desc{
-  margin-left: 60px;
+.home .last__section .section1 .col-left{
+  order: -1;
 }
-.home .last__section .section1 .desc h2, .section2 .desc h2{
+.home .last__section .desc{
+  padding-right: 50px;
+  padding-left: 30px;
+}
+.home .last__section .section1 .desc h2{
   font-family: 'Open Sans' Condensed;
   font-size: 1.8rem;
   font-weight: 500;
   padding-bottom: 30px;
   color: crimson;
 }
-.home .last__section .section1 .desc p, .section2 .desc p{
+.home .last__section .section1 .desc p{
   font-family: 'Open Sans' Condensed;
   font-size: 1.1rem;
   color: #1d1d1d;
   line-height: 28px;
-}
-.home .last__section .section2 .desc{
-  margin-right: 60px;
 }
 .home .last__section .but{
   text-align: center;
@@ -1005,8 +1008,6 @@ body {
   .home .last__section .section1 .desc, .section2 .desc{
     margin-left: 0;
     text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
     padding-top: 30px;
   }
   .home .explore__section{

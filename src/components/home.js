@@ -89,20 +89,24 @@ function Home (){
                     <h1>What we do.</h1>
                     <div className='border'></div>
                     <div className='section1'>
-                        <img src={hero5} alt='hero5' />
-                        <div className='desc'>
+                        <div className='col'>
+                            <img src={hero5} alt='hero5' />
+                        </div>
+                        <div className='col desc'>
                             <h2>Shopify Store Management</h2>
                             <p>Shopify ecommerce brands have a tremendous opportunity to grow and scale their business to their full potential by leveraging virtual assistance. Gone are the days of having to upload, import, edit, and research products yourself. We have you covered for this. You should focus on how to boost your brand awareness. Leave the essential tasks to us.</p>
                         </div>
                     </div>
-                    <div className='section2'>
-                        <div className='desc'>
+                    <div className='section1'>
+                        <div className='col'>
+                            <img src={hero6} alt='hero6'/>
+                        </div>
+                        <div className='col desc col-left'>
                             <h2>SEO for Shopify</h2>
                             <p>Search engines are bridges between a brand and a customer. You must optimize your products to rank higher on major search engines. Before ranking, you need to understand what problem a consumer is trying to solve and offer the right solution. 
                             SEO and SEM allow brands to present the best product to the client at the top of their search results. 
                             </p>
                         </div>
-                        <img src={hero6} alt='hero6'/>
                     </div>
                     <div className='but'>
                         <HashLink smooth to='/services#services'><button>EXPLORE MORE</button></HashLink>
