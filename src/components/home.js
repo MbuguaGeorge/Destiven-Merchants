@@ -118,8 +118,10 @@ function Home (){
                         <h2>We do business, not just optimizing & managing your Shopify brand.</h2>
                         <p>Whether you're looking for managing, optimizing, scaling, and growing, we are ready to provide that for You.</p>
                     </div>
-                    <div className='button'>
-                        <HashLink smooth to='/contact#contact'><button>GET IN TOUCH</button></HashLink>
+                    <div className='but'>
+                        <div className='button'>
+                            <HashLink smooth to='/contact#contact'><button>GET IN TOUCH</button></HashLink>
+                        </div>
                     </div>
                     </div>
                 </div>

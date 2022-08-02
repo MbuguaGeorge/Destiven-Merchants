@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20220803T063000Z
+DTEND:20220803T070000Z
+DTSTAMP:20220802T083341Z
+ORGANIZER;CN=cynthiamargaretn95@gmail.com:mailto:cynthiamargaretn95@gmail.c
+ om
+UID:srb70huf829nshpk7p47qi3v2g@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=cynthiamargaretn95@gmail.com;X-NUM-GUESTS=0:mailto:cynthiamargaretn95@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=mbuguag026@gmail.com;X-NUM-GUESTS=0:mailto:mbuguag026@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/htg-jkku-nfq
+X-MICROSOFT-CDO-OWNERAPPTID:-379763256
+CREATED:20220802T083338Z
+DESCRIPTION:Event Name: Meeting with Ryanada Team\n\nWhat to expect:\n\n\nW
+ e will have a more detailed chat about you as a person as well as a profess
+ ional. There will be some technical talk (role related) and want to get mor
+ e information on what is important to you. Please feel free to ask us any q
+ uestions.\n\n\nIt is informal and will last around 30 minutes.\n\n\nTo lear
+ n more about us- https://www.ryanada.com\n\n\nIf you have any additional qu
+ estions or are running late\, please contact me to let me know.\n\n\nPlease
+  confirm that you have received this email and that we will be seeing you a
+ t the scheduled time and day\n\n\nWe look forward to meeting you soon!\n\n\
+ nCynthia\n\n\nRecruitment Team\n\nLocation: This is a Google Meet web confe
+ rence.\nYou can join this meeting from your computer\, tablet\, or smartpho
+ ne.\nhttps://calendly.com/events/ff74b788-60ed-4341-8a16-c82dd6fd5636/googl
+ e_meet\n\nNeed to make changes to this event?\nCancel: https://calendly.com
+ /cancellations/55d26c6b-01ff-40c8-be5c-6087524331d7\nReschedule: https://ca
+ lendly.com/reschedulings/55d26c6b-01ff-40c8-be5c-6087524331d7\n\nPowered by
+  Calendly.com\n\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nDo not edit this section of the descriptio
+ n.\n\nThis event has a video call.\nJoin: https://meet.google.com/htg-jkku-
+ nfq\n\nView your event at https://calendar.google.com/calendar/event?action
+ =VIEW&eid=c3JiNzBodWY4Mjluc2hwazdwNDdxaTN2MmcgbWJ1Z3VhZzAyNkBt&tok=MjgjY3lu
+ dGhpYW1hcmdhcmV0bjk1QGdtYWlsLmNvbTc0ODU4YjcxMTA0Yjk0YmZhNzEwOTQwYTUzYWIwNmI
+ 5ODliZmU0NjA&ctz=Africa%2FNairobi&hl=en&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20220802T083338Z
+LOCATION:Google Meet (instructions in description)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:George Mbugua and Cynthia Margaret
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

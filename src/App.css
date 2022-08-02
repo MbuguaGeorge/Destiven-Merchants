@@ -106,11 +106,11 @@ body {
     background-color: #1d1d1d;
     position: absolute;
     border-radius: 5px;
-    top: 50px;
-    left: 15%;
+    top: 70px;
+    left: 5%;
     right: 5%;
     flex-direction: column;
-    width: 70%;
+    width: 90%;
     height: calc(40vh - 80px);
     border-top: 1px solid black;
     display: none;
@@ -187,7 +187,7 @@ body {
   }
   .hero{
     position: absolute;
-    left: 25%;
+    left: 50%;
     top: 10vh;
   }
   .hero h2{
@@ -199,7 +199,7 @@ body {
   }
   .and{
     width: 80px;
-    margin-left: 100px;
+    margin-left: 90px;
   }
 }
 
@@ -284,7 +284,7 @@ body {
     padding-top: 40px;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
   }
   .footer .mid__footer{
     padding-left: 0;
@@ -309,7 +309,7 @@ body {
     width: 90px;
   }
   .watermark{
-    width: 50%;
+    width: 100%;
     padding-top: 40px;
   }
 }
@@ -852,6 +852,101 @@ body {
   width: 90px;
   margin-right: 150px;
 }
+
+/* responsive */
+@media screen and (max-width: 768px){
+  .home .home__section{
+    padding-left: 10px;
+    display: block;
+    padding-right: 10px;
+    padding-bottom: 60px;
+  }
+  .home .home__section .hero1 img{
+    width: 280px;
+  }
+  .home .home__section .hero2{
+    top: 400px;
+    left: 180px;
+  }
+  .home .home__section .hero2 img{
+    width: 230px;
+    height: 250px;
+  }
+  .home .home__section .hero3{
+    top: 530px;
+  }
+  .home .home__section .hero3 img{
+    width: 160px;
+    height: 120px;
+  }
+  .home .home__section .home__desc{
+    padding-left: 0;
+    padding-top: 200px;
+    text-align: center;
+  }
+  .home .home__section .home__desc h1{
+    font-size: 2.8rem;
+  }
+  .home .mid__section p{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .home .mid__section .border{
+    left: 15%;
+  }
+  .home .last__section .border{
+    left: 35%;
+  }
+  .home .last__section .section1, .section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+  }
+  .home .last__section .section1 img, .section2 img{
+    width: 300px;
+  }
+  .home .last__section .section1 .desc, .section2 .desc{
+    margin-left: 0;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+  .home .explore__section{
+    padding-left: 0;
+  }
+  .home .explore__section p{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+  .home .final__section .overlay{
+    display: block;
+    padding-left: 10px;
+    padding-top: 50px;
+  }
+  .home .final__section .desc{
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .home .final__section .but{
+    position: relative;
+  }
+  .home .final__section .button{
+    position: absolute;
+    left: 25%;
+  }
+  .home .verify ul li img{
+    width: 50px;
+    margin-right: 20px;
+  }
+}
+
 /* services */
 
 .service{
