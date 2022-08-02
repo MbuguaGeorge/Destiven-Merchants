@@ -75,7 +75,7 @@ function Home (){
                         <h1>You have a vision, We have a way to get you there.</h1>
                         <p style={{paddingBottom: '20px'}}>A premier Shopify agency specializing in management and ecommerce marketing solutions for global Shopify brands.</p>
                         <p>We specialize in delivering Shopify ecommerce solutions that outperform our client's expectations across <span>Shopify management</span>, and <span> Shopify marketing strategy.</span></p>
-                        <button>Let's Talk</button>
+                        <HashLink smooth to='/contact#contact'><button>Let's Talk</button></HashLink>
                     </div>
                 </div>
                 <div className='mid__section'>
