@@ -94,16 +94,16 @@ body {
   background-color: #2642af;
 }
 
-@media screen and (max-width: 768px) {
-  .logo img{
+@media screen and (max-width: 480px) {
+  body .logo img{
     width: 80px;
     margin-left: 10px;
     padding-top: 10px;
   }
-  .hamburger {
+  body .hamburger {
     display: block;
   }
-  .nav ul{
+  body .nav ul{
     background-color: #1d1d1d;
     position: absolute;
     border-radius: 5px;
@@ -112,30 +112,32 @@ body {
     right: 5%;
     flex-direction: column;
     width: 90%;
-    height: calc(40vh - 80px);
+    height: 30vh;
     border-top: 1px solid black;
     display: none;
     z-index: 1;
     transition: all .8s ease;
   }
-  .nav ul li{
+  body .nav ul li{
     margin: 0;
     color: #ddd;
     font-size: .7rem;
     text-align: center;
   }
-  .nav ul li:hover{
+  body .nav ul li:hover{
     color: crimson;
   }
-  .nav{
+  body .nav{
     width: 100%;
     position: absolute;
   }
-  .nav__menu.expanded ul{
+  body .nav__menu.expanded ul{
     display: block;
     transition: all .8s ease;
   }
 }
+
+
 /* hero */
 
 .hero-div{
@@ -191,7 +193,7 @@ body {
 
 /* responsive */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .hero-div{
     height: 30vh;
     width: 100%;
@@ -216,6 +218,7 @@ body {
     margin-left: 90px;
   }
 }
+
 
 /* Footer */
 
@@ -705,6 +708,19 @@ body {
   }
 }
 
+@media screen and (max-width: 576px){
+  .about .final__section .button{
+    position: absolute;
+    left: 35%;
+  }
+  .about .testimonials .border{
+    left: 38%;
+  }
+  .about .values .border{
+    left: 40%;
+  }
+}
+
 /* Home */
 
 .home .home__section{
@@ -964,50 +980,52 @@ body {
 }
 
 /* responsive */
-@media screen and (max-width: 768px){
+
+@media only screen and (max-width: 576px){
   .home .home__section{
     padding-left: 10px;
     display: block;
     padding-right: 10px;
     padding-bottom: 60px;
   }
-  .home .home__section .hero1 img{
+  body .home .home__section .hero1 img{
     width: 280px;
   }
-  .home .home__section .hero2{
-    top: 400px;
-    left: 180px;
-  }
-  .home .home__section .hero2 img{
+  body .home .home__section .hero2 img{
     width: 230px;
     height: 250px;
   }
-  .home .home__section .hero3{
-    top: 530px;
+  body .home .home__section .hero2{
+    top: 400px;
+    left: 180px;
   }
-  .home .home__section .hero3 img{
+  body .home .home__section .hero3 img{
     width: 160px;
-    height: 120px;
+    height: 125px;
   }
-  .home .home__section .home__desc{
+  body .home .home__section .hero3{
+    position: absolute;
+    top: 525px;
+  }
+  body .home .home__section .home__desc{
     padding-left: 0;
     padding-top: 200px;
     text-align: center;
   }
-  .home .home__section .home__desc h1{
+  body .home .home__section .home__desc h1{
     font-size: 2.8rem;
   }
-  .home .mid__section p{
+  body .home .mid__section p{
     padding-left: 10px;
     padding-right: 10px;
   }
-  .home .mid__section .border{
+  body .home .mid__section .border{
     left: 15%;
   }
-  .home .last__section .border{
+  body .home .last__section .border{
     left: 35%;
   }
-  .home .last__section .section1{
+  body .home .last__section .section1{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1016,53 +1034,98 @@ body {
     margin-right: 10px;
     padding-top: 30px;
   }
-  .home .last__section .section1 .col-left{
+  body .home .last__section .section1 .col-left{
     order: 1;
   }
-  .home .last__section .section1 img{
+  body .home .last__section .section1 img{
     width: 300px;
   }
-  .home .last__section .section1 .desc{
+  body .home .last__section .section1 .desc{
     padding-left: 0;
     padding-right: 0;
     text-align: center;
     padding-top: 30px;
   }
-  .home .last__section .section1 .desc h2{
+  body .home .last__section .section1 .desc h2{
     padding-bottom: 15px;
     padding-top: 30px;
   }
-  .home .explore__section{
+  body .home .explore__section{
     padding-left: 0;
   }
-  .home .explore__section p{
+  body .home .explore__section p{
     padding-right: 10px;
     padding-left: 10px;
     text-align: center;
   }
-  .home .final__section .overlay{
+  body .home .final__section .overlay{
     display: block;
     padding-left: 10px;
     padding-top: 50px;
   }
-  .home .final__section .desc{
+  body .home .final__section .desc{
     padding-right: 10px;
     text-align: center;
     padding-bottom: 50px;
   }
-  .home .final__section .but{
+  body .home .final__section .but{
     position: relative;
   }
-  .home .final__section .button{
+  body .home .final__section .button{
     position: absolute;
-    left: 25%;
+    left: 30%;
   }
-  .home .verify ul li img{
+  body .home .verify ul li img{
     width: 50px;
     margin-right: 20px;
   }
 }
-
+/*
+@media only screen and (max-width: 576px){
+  body .home .home__section{
+    padding-left: 20px;
+  }
+  body .home .home__section .hero1 img{
+    width: 350px;
+  }
+  body .home .home__section .hero2 img{
+    width: 315px;
+    height: 300px;
+  }
+  body .home .home__section .hero2{
+    top: 470px;
+    left: 230px;
+  }
+  body .home .home__section .hero3{
+    top: 620px;
+  }
+  body .home .home__section .hero3 img{
+    width: 200px;
+    height: 150px;
+  }
+  body .home .mid__section .border{
+    left: 22%;
+  }
+  body .home .last__section .border{
+    left: 38%;
+  }
+  body .home .last__section .section1 img{
+    width: 450px;
+  }
+  body .home .final__section .button{
+    left: 33%;
+  }
+  body .home .final__section{
+    height: 60vh;
+  }
+  body .home .final__section .overlay{
+    height: 60vh;
+  }
+  body .home .verify ul li img{
+    margin-right: 50px;
+  }
+}
+*/
 /* services */
 
 .service{
