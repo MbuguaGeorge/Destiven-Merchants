@@ -5,6 +5,10 @@ import Contact from './components/contact';
 import Blog from './components/blog';
 import Service from './components/services';
 import './App.css'
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('G-MG2SS0ELM2');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App(){
   return(
