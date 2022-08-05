@@ -18,13 +18,14 @@ function Home (){
 
     const [isNavExpanded, setIsNavExpanded] = useState(false);
     //const gaEventTracker = analyticsEventTracker('home page');
+    ReactGA.pageview('/')
 
     const inTouch = () => {
         ReactGA.event({
             category: 'home page',
             action: 'get in touch'
         })
-    }
+    }   
 
     return (
         <>
