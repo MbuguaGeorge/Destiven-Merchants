@@ -7,7 +7,7 @@ import Service from './components/services';
 import './App.css'
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('G-MG2SS0ELM2');
+ReactGA.initialize('G-1R4CF5P2932');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App(){

@@ -11,10 +11,12 @@ import img9 from '../images/img9.png';
 import img10 from '../images/img10.png';
 import img11 from '../images/img11.png';
 import { HashLink } from 'react-router-hash-link';
+import analyticsEventTracker from './analytics';
 
 function Home (){
 
-    const [isNavExpanded, setIsNavExpanded] = useState(false)
+    const [isNavExpanded, setIsNavExpanded] = useState(false);
+    const gaEventTracker = analyticsEventTracker('home page');
 
     return (
         <>
@@ -125,7 +127,7 @@ function Home (){
                     </div>
                     <div className='but'>
                         <div className='button'>
-                            <HashLink smooth to='/contact#contact'><button>GET IN TOUCH</button></HashLink>
+                            <HashLink smooth to='/contact#contact'><button onClick={() => gaEventTracker('get in touch')}>GET IN TOUCH</button></HashLink>
                         </div>
                     </div>
                     </div>
