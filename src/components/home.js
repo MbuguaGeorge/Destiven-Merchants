@@ -14,13 +14,15 @@ import { HashLink } from 'react-router-hash-link';
 import analyticsEventTracker from './analytics';
 import ReactGA from 'react-ga';
 
+ReactGA.initialize('G-1R4CF5P2932');
+
 function Home (){
 
     const [isNavExpanded, setIsNavExpanded] = useState(false);
     const gaEventTracker = analyticsEventTracker();  
 
     useEffect(() => {
-        ReactGA.pageview(window.location.pathname);
+        ReactGA.pageview('homepage');
     });
 
     return (
