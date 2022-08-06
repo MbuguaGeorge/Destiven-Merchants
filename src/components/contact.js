@@ -6,6 +6,7 @@ import mail from '../images/mail.png';
 import phone from '../images/phone.png';
 import ReactGA from 'react-ga';
 import {withRouter} from 'react-router-dom'
+import analyticsEventTracker from './analytics';
 
 function Contact (){
 
@@ -14,6 +15,8 @@ function Contact (){
     useEffect(() => {
         ReactGA.pageview(window.location.pathname + window.location.search);
     });
+
+    const gaTracker = analyticsEventTracker('contact us page')
 
     return (
         <>
@@ -68,7 +71,7 @@ function Contact (){
                     <div className='message'>
                         <textarea placeholder='Your Message' required></textarea>
                     </div>
-                    <input type='submit' value='SEND'/>
+                    <input type='submit' value='SEND' onClick={() => gaTracker('send message')}/>
                 </form>
                 <div className='contact__dets'>
                     <ul>
