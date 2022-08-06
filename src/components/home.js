@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import logo1 from '../images/logo7.png';
 import hero2 from '../images/hero2.jpg';
@@ -11,19 +11,10 @@ import img9 from '../images/img9.png';
 import img10 from '../images/img10.png';
 import img11 from '../images/img11.png';
 import { HashLink } from 'react-router-hash-link';
-import analyticsEventTracker from './analytics';
-import ReactGA from 'react-ga';
-
-ReactGA.initialize('G-1R4CF5P2932');
 
 function Home (){
 
     const [isNavExpanded, setIsNavExpanded] = useState(false);
-    const gaEventTracker = analyticsEventTracker();  
-
-    useEffect(() => {
-        ReactGA.pageview('homepage');
-    });
 
     return (
         <>
@@ -134,7 +125,7 @@ function Home (){
                     </div>
                     <div className='but'>
                         <div className='button'>
-                            <HashLink smooth to='/contact#contact'><button onClick={gaEventTracker('home page', 'click', 'get in touch')}>GET IN TOUCH</button></HashLink>
+                            <HashLink smooth to='/contact#contact'><button>GET IN TOUCH</button></HashLink>
                         </div>
                     </div>
                     </div>

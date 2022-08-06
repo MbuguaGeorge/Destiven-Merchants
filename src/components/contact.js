@@ -1,13 +1,19 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import logo1 from '../images/logo7.png';
 import home from '../images/home.png';
 import mail from '../images/mail.png';
 import phone from '../images/phone.png';
+import ReactGA from 'react-ga';
+import {withRouter} from 'react-router-dom'
 
 function Contact (){
 
     const [isNavExpanded, setIsNavExpanded] = useState(false)
+
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    });
 
     return (
         <>
@@ -136,4 +142,4 @@ function Contact (){
     )
 }
 
-export default Contact; 
+export default withRouter(Contact); 
