@@ -17,7 +17,7 @@ import ReactGA from 'react-ga';
 function Home (){
 
     const [isNavExpanded, setIsNavExpanded] = useState(false);
-    //const gaEventTracker = analyticsEventTracker('home page');  
+    const gaEventTracker = analyticsEventTracker();  
 
     useEffect(() => {
         ReactGA.pageview(window.location.pathname);
@@ -132,10 +132,7 @@ function Home (){
                     </div>
                     <div className='but'>
                         <div className='button'>
-                            <HashLink smooth to='/contact#contact'><button onClick={() =>   ReactGA.event({
-                                                                                                    category: 'home page',
-                                                                                                    action: 'get in touch'
-                                                                                                })}>GET IN TOUCH</button></HashLink>
+                            <HashLink smooth to='/contact#contact'><button onClick={gaEventTracker('home page', 'click', 'get in touch')}>GET IN TOUCH</button></HashLink>
                         </div>
                     </div>
                     </div>
