@@ -5,7 +5,6 @@ import home from '../images/home.png';
 import mail from '../images/mail.png';
 import phone from '../images/phone.png';
 import ReactGA from 'react-ga';
-import {withRouter} from 'react-router-dom'
 import analyticsEventTracker from './analytics';
 
 function Contact (){
@@ -145,4 +144,4 @@ function Contact (){
     )
 }
 
-export default withRouter(Contact); 
+export default Contact;

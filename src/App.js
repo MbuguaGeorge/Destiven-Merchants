@@ -7,7 +7,7 @@ import Service from './components/services';
 import './App.css'
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('G-1R4CF5P2932');
+ReactGA.initialize('G-MG2SS0ELM2');
 
 function App(){
   return(
