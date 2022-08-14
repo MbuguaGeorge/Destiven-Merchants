@@ -166,6 +166,10 @@ function About (){
                 <div className='footer__left'>
                     <img src={logo1} alt='logo' width='120'/>
                     <p>Get a dedicated Shopify Virtual Assistant to do your tasks in the best way possible.</p>
+                    <ul>
+                        <li><a href="https://twitter.com/DestivenM">Tw /</a></li>
+                        <li><a href="https://www.linkedin.com/in/stephen-ruigu-m-01849623b/">ln</a></li>
+                    </ul>
                 </div>
                 <div className='mid__footer'>
                     <h1>Navigation</h1>
@@ -184,7 +188,7 @@ function About (){
                         <li>Avenue 2 Kenyatta Rd (Off-Thika Rd)</li>
                         <li>Nairobi</li>
                         <li>(254) 715-657-003</li>
-                        <li>info@destivenmerchants.com</li>
+                        <li>stephen@destivenmerchants.com</li>
                     </ul>
                 </div>
                 <div className='footer__right'>

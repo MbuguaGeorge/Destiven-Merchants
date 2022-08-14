@@ -241,6 +241,23 @@ body {
   font-size: 1rem;
   line-height: 25px;
 }
+.footer .footer__left ul{
+  margin-top: 20px;
+  display: flex;
+}
+.footer .footer__left ul li{
+  list-style: none;
+  margin-right: 8px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.footer .footer__left ul li a{
+  text-decoration: none;
+  color: white;
+}
+.footer .footer__left ul li a:hover{
+  color: crimson;
+}
 .footer .mid__footer{
   padding-left: 120px;
   text-align: center;
@@ -293,6 +310,7 @@ body {
   padding-bottom: 50px; 
 }
 
+
 /* responsive */
 
 @media screen and (max-width: 768px) {
@@ -324,6 +342,11 @@ body {
   }
   .footer .footer__left img{
     width: 90px;
+  }
+  .footer .footer__left ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .watermark{
     width: 100%;
