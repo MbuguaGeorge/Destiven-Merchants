@@ -11,6 +11,8 @@ import img7 from '../images/img7.png';
 import pic1 from '../images/pic1.png';
 import pic2 from '../images/pic2.png';
 import pic3 from '../images/pic3.png';
+import twitter from '../images/twitter.png';
+import linkedin from '../images/linkedin.png';
 
 function About (){
 
@@ -167,8 +169,8 @@ function About (){
                     <img src={logo1} alt='logo' width='120'/>
                     <p>Get a dedicated Shopify Virtual Assistant to do your tasks in the best way possible.</p>
                     <ul>
-                        <li><a href="https://twitter.com/DestivenM">Tw /</a></li>
-                        <li><a href="https://www.linkedin.com/in/stephen-ruigu-m-01849623b/">ln</a></li>
+                        <li><a href="https://twitter.com/DestivenM"><img src={twitter} alt='twitter' style={{width: '30px'}}/></a></li>
+                        <li><a href="https://www.linkedin.com/in/stephen-ruigu-m-01849623b/"><img src={linkedin} alt='linkedin' style={{width: '30px'}}/></a></li>
                     </ul>
                 </div>
                 <div className='mid__footer'>

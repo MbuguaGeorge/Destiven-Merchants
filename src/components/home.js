@@ -10,6 +10,8 @@ import img8 from '../images/img8.png';
 import img9 from '../images/img9.png';
 import img10 from '../images/img10.png';
 import img11 from '../images/img11.png';
+import twitter from '../images/twitter.png';
+import linkedin from '../images/linkedin.png';
 import { HashLink } from 'react-router-hash-link';
 
 function Home (){
@@ -153,9 +155,8 @@ function Home (){
                     <img src={logo1} alt='logo'/>
                     <p>Get a dedicated Shopify Virtual Assistant to do your tasks in the best way possible.</p>
                     <ul>
-                        <li><a href="https://twitter.com/DestivenM">Tw</a></li>
-                        <li>/</li>
-                        <li><a href="https://www.linkedin.com/in/stephen-ruigu-m-01849623b/">ln</a></li>
+                        <li><a href="https://twitter.com/DestivenM"><img src={twitter} alt='twitter' style={{width: '30px'}}/></a></li>
+                        <li><a href="https://www.linkedin.com/in/stephen-ruigu-m-01849623b/"><img src={linkedin} alt='linkedin' style={{width: '30px'}}/></a></li>
                     </ul>
                 </div>
                 <div className='mid__footer'>

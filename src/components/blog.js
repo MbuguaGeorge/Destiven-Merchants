@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import logo1 from '../images/logo7.png';
+import twitter from '../images/twitter.png';
+import linkedin from '../images/linkedin.png';
 
 function Blog (){
 
@@ -56,8 +58,8 @@ function Blog (){
                 <img src={logo1} alt='logo' width='120'/>
                 <p>Get a dedicated Shopify Virtual Assistant to do your tasks in the best way possible.</p>
                 <ul>
-                    <li><a href="https://twitter.com/DestivenM">Tw /</a></li>
-                    <li><a href="https://www.linkedin.com/in/stephen-ruigu-m-01849623b/">ln</a></li>
+                    <li><a href="https://twitter.com/DestivenM"><img src={twitter} alt='twitter' style={{width: '30px'}}/></a></li>
+                    <li><a href="https://www.linkedin.com/in/stephen-ruigu-m-01849623b/"><img src={linkedin} alt='linkedin' style={{width: '30px'}}/></a></li>
                 </ul>
                 </div>
                 <div className='mid__footer'>

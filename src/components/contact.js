@@ -4,6 +4,8 @@ import logo1 from '../images/logo7.png';
 import home from '../images/home.png';
 import mail from '../images/mail.png';
 import phone from '../images/phone.png';
+import twitter from '../images/twitter.png';
+import linkedin from '../images/linkedin.png';
 import ReactGA from 'react-ga';
 import analyticsEventTracker from './analytics';
 
@@ -91,7 +93,7 @@ function Contact (){
                         <li>
                             <img src={mail} alt='mail'/>
                             <div className='dets'>
-                                <h3>info@destivenmerchants.com</h3>
+                                <h3>stephen@destivenmerchants.com</h3>
                                 <p>Send us your query anytime!</p>
                             </div>
                         </li>
@@ -104,8 +106,8 @@ function Contact (){
                     <img src={logo1} alt='logo' width='120'/>
                     <p>Get a dedicated Shopify Virtual Assistant to do your tasks in the best way possible.</p>
                     <ul>
-                        <li><a href="https://twitter.com/DestivenM">Tw /</a></li>
-                        <li><a href="https://www.linkedin.com/in/stephen-ruigu-m-01849623b/">ln</a></li>
+                        <li><a href="https://twitter.com/DestivenM"><img src={twitter} alt='twitter' style={{width: '30px'}}/></a></li>
+                        <li><a href="https://www.linkedin.com/in/stephen-ruigu-m-01849623b/"><img src={linkedin} alt='linkedin' style={{width: '30px'}}/></a></li>
                     </ul>
                 </div>
                 <div className='mid__footer'>

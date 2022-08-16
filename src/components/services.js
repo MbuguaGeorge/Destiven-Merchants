@@ -8,6 +8,8 @@ import hero7 from '../images/hero7.jpg';
 import hero8 from '../images/hero8.jpg';
 import hero9 from '../images/banner3.jpg';
 import hero10 from '../images/hero10.jpg';
+import twitter from '../images/twitter.png';
+import linkedin from '../images/linkedin.png';
 
 function Service (){
 
@@ -121,8 +123,12 @@ function Service (){
 
             <div className='footer'>
                 <div className='footer__left'>
-                <img src={logo1} alt='logo' width='120'/>
-                <p>Get a dedicated Shopify Virtual Assistant to do your tasks in the best way possible.</p>
+                    <img src={logo1} alt='logo' width='120'/>
+                    <p>Get a dedicated Shopify Virtual Assistant to do your tasks in the best way possible.</p>
+                    <ul>
+                        <li><a href="https://twitter.com/DestivenM"><img src={twitter} alt='twitter' style={{width: '30px'}}/></a></li>
+                        <li><a href="https://www.linkedin.com/in/stephen-ruigu-m-01849623b/"><img src={linkedin} alt='linkedin' style={{width: '30px'}}/></a></li>
+                    </ul>
                 </div>
                 <div className='mid__footer'>
                     <h1>Navigation</h1>
