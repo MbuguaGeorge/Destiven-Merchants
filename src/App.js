@@ -4,6 +4,7 @@ import About from './components/about';
 import Contact from './components/contact';
 import Blog from './components/blog';
 import Service from './components/services';
+import Unsubscribe from './components/emails/unsubscribe';
 import './App.css'
 import ReactGA from 'react-ga';
 
@@ -18,6 +19,7 @@ function App(){
           <Route exact path="/contact" element={<Contact/>} />
           <Route exact path="/blog" element={<Blog/>} />
           <Route exact path="/services" element={<Service/>} />
+          <Route exact path='/unsubscribe' element={<Unsubscribe />} />
         </Routes>
       </Router>
   )

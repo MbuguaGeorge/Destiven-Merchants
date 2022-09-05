@@ -1,0 +1,36 @@
+.unsub{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 30px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.unsub form h2{
+    margin-bottom: 10px;
+}
+
+.unsub form input[type='email']{
+    padding: 8px 10px;
+    outline: none;
+    border: 1px solid #1d1d1d;
+    width: 300px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.unsub form input[type='submit']{
+    cursor: pointer;
+    padding: 6px 16px;
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    color: white;
+    border-radius: 4px;
+}
