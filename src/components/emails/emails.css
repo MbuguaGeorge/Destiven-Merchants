@@ -34,3 +34,29 @@
     color: white;
     border-radius: 4px;
 }
+
+.success{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ddd;
+    padding: 30px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.success h2{
+    padding-bottom: 20px;
+}
+.success p{
+    padding-bottom: 10px;
+}
+.success p span{
+    color: skyblue;
+}
+.success h5{
+    color: skyblue;
+    padding-top: 20px;
+    text-decoration: underline skyblue;
+}

@@ -1,15 +1,38 @@
 import React, {useState} from 'react';
 import logo1 from '../../images/logo7.png';
-import {Link} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import './emails.css'
 
 function Unsubscribe(){
 
     const [isNavExpanded, setIsNavExpanded] = useState(false);
+    const [email, setEmail] = useState({
+        email: ''
+    });
+    const [redirect, setRedirect] = useState(false);
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        fetch('http://127.0.0.1:8000/emailing/unsub', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(email)
+        }).then(
+            () => setRedirect(!redirect)
+        ).catch(
+            err => console.log(err)
+        )
+    };
+
+    const navigate = useNavigate();
+    
+    if(redirect){
+        return navigate('/unsubscribe/success', {replace:true})
+    }
 
     return (
         <>
-                    <div className='nav'>
+        <div className='nav'>
         <div className='logo'>
             <Link style={{textDecoration: 'None'}} to='/'><img src={logo1} alt='logo'/></Link>
         </div>
@@ -50,12 +73,16 @@ function Unsubscribe(){
         </div>
 
         <div className='unsub'>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <h2>Email preferences</h2>
                 <p>Enter your email below to unsubscribe from receiving emails from us</p>
                 <input 
                     type='email' required
                     placeholder='Enter your email'
+                    value={email.email}
+                    onChange={(e) => setEmail(prevState => ({
+                        ...prevState, email: e.target.value
+                    }))}
                 />
                 <div className='submit'>
                     <input 
