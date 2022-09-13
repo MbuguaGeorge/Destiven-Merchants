@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {Link} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import logo1 from '../images/logo7.png';
 import home from '../images/home.png';
 import mail from '../images/mail.png';
@@ -20,18 +20,24 @@ function Contact (){
 
     useEffect(() => {
         ReactGA.pageview(window.location.pathname + window.location.search);
-    });
+    }, []);
 
     const gaTracker = analyticsEventTracker('contact us page')
 
+    let navigate = useNavigate();
+
     const handleSubmit = (e) => {
         e.preventDefault()
-        fetch('http://127.0.0.1:8000/mail', {
+        fetch('https://destivenmerchants.herokuapp.com/mail', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(cred)
         }).then(
-            res => console.log(res)
+            res => {
+                console.log(res)
+                alert('Thank you for your feedback')
+                return navigate('/', {replace: true})
+            }
         ).catch(
             err => console.log(err)
         )
