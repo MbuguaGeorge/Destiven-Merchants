@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import logo1 from '../images/logo7.png';
 import twitter from '../images/twitter.png';
@@ -6,7 +6,23 @@ import linkedin from '../images/linkedin.png';
 
 function Blog (){
 
-    const [isNavExpanded, setIsNavExpanded] = useState(false)
+    const [isNavExpanded, setIsNavExpanded] = useState(false);
+    const [blogs, setBlogs] = useState([]);
+
+    useEffect(() => {
+        async function fetchblogs(){
+            const data = await fetch('https://public-api.wordpress.com/rest/v1.1/sites/destivenmerchants.wordpress.com/posts', {
+                method: 'GET',
+                headers: {'Content-Type': 'application.json'}
+            })
+
+            const res = await data.json()
+            setBlogs(res.posts)
+        }
+        fetchblogs()
+    }, [])
+
+    console.log(blogs)
 
     return (
         <>
@@ -19,7 +35,6 @@ function Blog (){
                         setIsNavExpanded(!isNavExpanded)
                     }}
                     className="hamburger">
-    {/* icon from heroicons.com */}
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -51,7 +66,13 @@ function Blog (){
             </div>
             </div>
 
-            <div className='blank'></div>
+            <div className='blank'>
+                {blogs.map(blog => (
+                    <div className='blogs' dangerouslySetInnerHTML={{__html: blog.content}}>
+                        {/* <img src={blog.} alt='blog'/> */}
+                    </div>
+                ))}
+            </div>
 
             <div className='footer'>
                 <div className='footer__left'>

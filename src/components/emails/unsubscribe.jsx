@@ -13,7 +13,7 @@ function Unsubscribe(){
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        fetch('http://127.0.0.1:8000/emailing/unsub', {
+        fetch('https://destivenmerchants.herokuapp.com/emailing/unsub', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(email)

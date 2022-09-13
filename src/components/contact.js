@@ -12,12 +12,30 @@ import analyticsEventTracker from './analytics';
 function Contact (){
 
     const [isNavExpanded, setIsNavExpanded] = useState(false)
+    const [cred, setCred] = useState({
+        name: '',
+        email: '',
+        message: ''
+    });
 
     useEffect(() => {
         ReactGA.pageview(window.location.pathname + window.location.search);
     });
 
     const gaTracker = analyticsEventTracker('contact us page')
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        fetch('http://127.0.0.1:8000/mail', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(cred)
+        }).then(
+            res => console.log(res)
+        ).catch(
+            err => console.log(err)
+        )
+    }
 
     return (
         <>
@@ -63,14 +81,29 @@ function Contact (){
             </div>
 
             <div className='contact' id='contact'>
-                <form>
+                <form onSubmit={handleSubmit}>
                     <h1>Get In Touch</h1>
                     <div className='contact-first'>
-                        <input type='text' placeholder='Name' required/>
-                        <input type='email' placeholder='Your Email' required/>
+                        <input type='text' placeholder='Name' required
+                            value={cred.name}
+                            onChange={(e) => setCred(prevState => ({
+                                ...prevState, name: e.target.value
+                            }))}
+                        />
+                        <input type='email' placeholder='Your Email' required
+                            value={cred.email}
+                            onChange={(e) => setCred(prevState => ({
+                                ...prevState, email: e.target.value
+                            }))}
+                        />
                     </div>
                     <div className='message'>
-                        <textarea placeholder='Your Message' required></textarea>
+                        <textarea placeholder='Your Message' required
+                            value={cred.message}
+                            onChange={(e) => setCred(prevState => ({
+                                ...prevState, message: e.target.value
+                            }))}
+                        ></textarea>
                     </div>
                     <input type='submit' value='SEND' onClick={() => gaTracker('send message')}/>
                 </form>
