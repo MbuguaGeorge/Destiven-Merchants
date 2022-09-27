@@ -43,8 +43,7 @@ function Service (){
             <div className={isNavExpanded ? "nav__menu expanded" : "nav__menu"}>
                 <ul>
                     <Link style={{textDecoration: 'None'}}  to="/"><li>Home</li></Link>
-                    <Link style={{textDecoration: 'None'}}  to="/blog"><li>Blog</li></Link>
-                    <Link style={{textDecoration: 'None'}}  to="/services"><li>Services</li></Link>
+                    <li onClick={() => window.location.replace('https://destivenmerchants.com/blog/')} style={{cursor: 'pointer'}}>Blog</li>                    <Link style={{textDecoration: 'None'}}  to="/services"><li>Services</li></Link>
                     <Link style={{textDecoration: 'None'}}  to="/about"><li>About Us</li></Link>
                     <Link style={{textDecoration: 'None'}}  to="/contact"><li>Contact</li></Link>
                 </ul>
@@ -134,7 +133,7 @@ function Service (){
                     <h1>Navigation</h1>
                     <ul>
                     <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/"><li>Home</li></Link>
-                    <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/blog"><li>Blog</li></Link>
+                    <li onClick={() => window.location.replace('https://destivenmerchants.com/blog/')} style={{cursor: 'pointer'}}>Blog</li>
                     <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/services"><li>Services</li></Link>
                     <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/about"><li>About Us</li></Link>
                     <Link style={{textDecoration: 'None', color: 'crimson'}}  to="/contact"><li>Contact</li></Link>
